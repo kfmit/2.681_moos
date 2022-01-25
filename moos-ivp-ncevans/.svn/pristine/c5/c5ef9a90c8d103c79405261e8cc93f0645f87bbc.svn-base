@@ -1,0 +1,2 @@
+#!/usr/bin/env bash 
+./launch_vehicle.sh  --auto --cool=40 --steps=1000    --survey_x=70 --survey_y=-100  --vname=archie --index=1 --start=0,0 --angle=270 --width=120 --height=150 --lwidth=25  10

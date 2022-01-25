@@ -1,0 +1,11 @@
+ProcessConfig = pDeadManPost
+{
+  AppTick   = 4
+  CommsTick = 4
+
+  heartbeat_var = UP_LOITER
+  max_noheart   = 300
+  post_policy   = reset
+	active_at_start = true
+  deadflag      = UP_LOITER = ycenter_assign=-75
+}

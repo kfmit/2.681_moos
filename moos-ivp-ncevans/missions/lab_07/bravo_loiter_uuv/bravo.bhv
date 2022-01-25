@@ -1,0 +1,175 @@
+//************************************************************/
+//*    NAME: Craig Evans                                     */
+//*    ORGN: MIT, Cambridge MA                               */
+//*    FILE: bravo.bhv                                       */
+//*    DATE: December 29th, 1963                             */
+//************************************************************/
+
+initialize   DEPLOY = false
+initialize   RETURN = false
+initialize   LOIT = east
+
+
+Behavior=BHV_Waypoint
+{
+  name       = waypt_return
+  pwt        = 100
+  condition  = RETURN = true
+  condition  = DEPLOY = true
+  perpetual  = true
+  updates    = RETURN_UPDATE
+  endflag    = DEPLOY = false
+  endflag    = MISSION = complete
+	
+           speed = 2.0
+  capture_radius = 2.0
+     slip_radius = 8.0
+          points = 0,0
+ }
+
+//----------------------------------------------
+Behavior=BHV_ConstantSpeed
+{
+  name       = const_speed
+  pwt        = 200
+  condition  = SPD=true
+  condition  = DEPLOY = true
+  perpetual  = true
+  updates    = SPEED_UPDATE
+  endflag    = SPD = false
+
+     speed = 0.5
+		 duration = 10
+		 duration_reset = CONST_SPD_RESET=true
+	
+	}
+Behavior = BHV_Loiter
+{
+  // General Behavior Parameters
+  // ---------------------------
+  name         = west              // example
+  pwt          = 100                   // default
+  condition    = LOIT = west
+  condition    = RETURN =false// example
+  updates      = LOITER_UPDATES        // example
+	endflag      = LOIT = east
+
+  // Parameters specific to this behavior
+  // ------------------------------------
+	duration_idle_decay = false
+  acquire_dist = 10               // default
+  capture_radius = 3                // default  
+  center_activate = false            // default
+  clockwise = false             // default
+  slip_radius = 15               // default
+  speed = 2.5                // default
+	// spiral_factor = -2               // default
+	duration = 150
+	perpetual = true
+	duration_reset = BRAVO_TIMER_RESET1=true
+  polygon = radial:: x=100,y=-75,radius=30,pts=8  // example
+
+  center_assign = 100,-75            // example
+  //  xcenter_assign = 40               // example
+  //  ycenter_assign = 50               // example
+
+
+  visual_hints = vertex_size  = 1             // default
+  visual_hints = edge_size    = 1             // default
+  visual_hints = vertex_color = dodger_blue   // default
+  visual_hints = edge_color   = white         // default
+  visual_hints = nextpt_color = yellow        // default
+  visual_hints = nextpt_lcolor = aqua         // default
+  visual_hints = nextpt_vertex_size = 5       // default
+  visual_hints = label        = zone3         // example
+}
+Behavior = BHV_Loiter
+{
+   // General Behavior Parameters
+   // ---------------------------
+   name         = east               // example
+   pwt          = 100                   // default
+   condition    = LOIT = east       // example
+	 condition    = RETURN = false
+   updates      = LOITER_UPDATES        // example
+	 endflag      = LOIT = west
+
+   // Parameters specific to this behavior
+   // ------------------------------------
+	 duration_idle_decay = false
+	 duration_reset = BRAVO_TIMER_RESET=true
+   acquire_dist = 10               // default
+   capture_radius = 3                // default  
+   center_activate = false            // default
+   clockwise = false             // default
+   slip_radius = 15               // default
+   speed = 2.5                // default
+	 // spiral_factor = -2               // default
+	 duration = 150
+	 perpetual = true
+   polygon = radial:: x=160,y=-50,radius=20,pts=8  // example
+
+  center_assign = 160,-50         // example
+  //  xcenter_assign = 40               // example
+  //  ycenter_assign = 50               // example
+
+
+  visual_hints = vertex_size  = 1             // default
+  visual_hints = edge_size    = 1             // default
+  visual_hints = vertex_color = dodger_blue   // default
+  visual_hints = edge_color   = white         // default
+  visual_hints = nextpt_color = yellow        // default
+  visual_hints = nextpt_lcolor = aqua         // default
+  visual_hints = nextpt_vertex_size = 5       // default
+  visual_hints = label        = zone2         // example
+	}
+Behavior = BHV_ConstantDepth
+{
+   // General Behavior Parameters
+   // ---------------------------
+   name         = const_dep_east   // example
+   pwt          = 100                // default
+   condition    = LOIT = east    // example
+	 condition    = DEPLOY = true
+   updates      = CONST_DEP_UPDATES  // example
+
+  // Parameters specific to this behavior
+  // ------------------------------------
+  depth = 10           // default
+  depth_mismatch_var = DEPTH_DIFF   // example
+  duration = no-time-limit            // default
+}
+Behavior = BHV_ConstantDepth
+{
+	// General Behavior Parameters
+	// ---------------------------
+	name         = const_dep_west   // example
+	pwt          = 100                // default
+	condition    = LOIT = west    // example
+	condition    = DEPLOY = true
+	updates      = CONST_DEP_UPDATES  // example
+
+  // Parameters specific to this behavior
+  // ------------------------------------
+  depth = 30           // default
+  depth_mismatch_var = DEPTH_DIFF   // example
+  duration = no-time-limit            // default
+
+	}
+	Behavior = BHV_ConstantDepth
+{
+	// General Behavior Parameters
+	// ---------------------------
+	name         = const_dep_return   // example
+	pwt          = 100                   // example
+	condition    = RETURN = true
+	updates      = CONST_DEP_UPDATES  // example
+
+  // Parameters specific to this behavior
+  // ------------------------------------
+  depth = 0           // default
+  depth_mismatch_var = DEPTH_DIFF   // example
+  duration = no-time-limit            // default
+	}
+
+

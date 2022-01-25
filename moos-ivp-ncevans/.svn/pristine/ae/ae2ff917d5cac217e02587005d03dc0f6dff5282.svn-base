@@ -1,0 +1,45 @@
+//------------------------------------------------
+// pGenPath config block
+ServerHost = localhost
+ServerPort = 9000
+Community  = alpha
+MOOSTimeWarp = 1
+LatOrigin  = 43.825300 
+LongOrigin = -70.330400 
+//------------------------------------------
+// Antler configuration  block
+ProcessConfig = ANTLER
+{
+  MSBetweenLaunches = 50
+
+  Run = MOOSDB     	 @ NewConsole = true
+	Run = uXMS         @ NewConsole = true
+	Run = uTimerScript @ NewConsole = false
+  Run = pPGenPath @ NewConsole = false
+	//Run = pHelmIvP           @ NewConsole = false
+}
+
+ProcessConfig = pGenPath
+{
+   AppTick   = 4
+   CommsTick = 4
+}
+ProcessConfig = uXMS
+{
+  VAR            = VISIT_POINT
+	VAR            = UPDATES_VAR_LIST
+	VAR            = VEH_UP
+}
+ProcessConfig = uTimerScript                                    
+{
+	AppTick      = 2
+	CommsTick    = 2
+	paused        = true
+	rand_var    = varname=RND_VAL, min=-25, max=200, key=at_post
+	rand_var    = varname=RND_VAL2, min=-175, max=-25, key=at_post
+
+  event = var=VISIT_POINT, val="firstpoint", time=0
+  event = var=VISIT_POINT, val="x=$[RND_VAL], y=$[RND_VAL2], id=$[TCOUNT]", time=0, amt=50 
+  event = var=VISIT_POINT, val="lastpoint", time=0
+} 	
+	 

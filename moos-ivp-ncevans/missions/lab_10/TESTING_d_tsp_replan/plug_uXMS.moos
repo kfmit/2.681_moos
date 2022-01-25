@@ -1,0 +1,14 @@
+ProcessConfig = uXMS
+{
+  VAR            = VISIT_POINT
+	VAR            = VISIT_POINT_HENRY
+	VAR            = VISIT_POINT_GILDA
+	VAR            = VEH_UP_GILDA
+	VAR            = VEH_UP_HENRY
+	VAR            = VEH_UP
+	VAR            = MY_X
+	VAR            = UPDATES_VAR_LIST
+	VAR            = WPT_INDEX
+	VAR            = POINTS_DONE
+	VAR            = POINTS_DONE_ALL_DONE
+}
