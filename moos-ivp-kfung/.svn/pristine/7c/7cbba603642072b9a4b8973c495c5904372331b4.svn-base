@@ -1,0 +1,222 @@
+/************************************************************/
+/*    NAME: Kat Fung                                              */
+/*    ORGN: MIT, Cambridge MA                               */
+/*    FILE: GenPath.cpp                                        */
+/*    DATE: April 8, 2021                            */
+/************************************************************/
+
+#include <iterator>
+#include "MBUtils.h"
+#include "ACTable.h"
+#include "GenPath.h"
+#include "XYSegList.h"
+#include "XYPoint.h"
+#include <cmath>
+
+using namespace std;
+
+//---------------------------------------------------------
+// Constructor
+
+GenPath::GenPath()
+{
+}
+
+//---------------------------------------------------------
+// Destructor
+
+GenPath::~GenPath()
+{
+}
+
+//---------------------------------------------------------
+// Procedure: OnNewMail
+
+bool GenPath::OnNewMail(MOOSMSG_LIST &NewMail)
+{
+  AppCastingMOOSApp::OnNewMail(NewMail);
+
+  MOOSMSG_LIST::iterator p;
+  for(p=NewMail.begin(); p!=NewMail.end(); p++) {
+    CMOOSMsg &msg = *p;
+    string key    = msg.GetKey();
+    string sval  = msg.GetString(); 
+
+#if 0 // Keep these around just for template
+    string comm  = msg.GetCommunity();
+    double dval  = msg.GetDouble();
+    string sval  = msg.GetString(); 
+    string msrc  = msg.GetSource();
+    double mtime = msg.GetTime();
+    bool   mdbl  = msg.IsDouble();
+    bool   mstr  = msg.IsString();
+#endif
+
+     if(key == "FOO") 
+       cout << "great!";
+
+     else if(key == "VISIT_POINT"){
+       m_tsppoints.push_back(sval); // these are strings, initial order
+       cout << "Added Point to List" << endl;
+
+       // This function will convert the string to an xypoint
+       ConvertPoint(sval);
+      }
+
+
+     else if(key != "APPCAST_REQ") // handled by AppCastingMOOSApp
+       reportRunWarning("Unhandled Mail: " + key);
+   }
+	
+   return(true);
+}
+
+//---------------------------------------------------------
+// Procedure: ConvertPoint
+bool GenPath::ConvertPoint(string msg){
+  if (msg == "firstpoint" || msg == "lastpoint"){
+    // Cool, do nothing
+    return(true);
+  }
+  
+  string pointstring = msg;
+
+    // Lets convert and save   
+  string xstring = biteStringX(pointstring, ','); // pointstring left with "y=num, id=num"
+  string ystring = biteStringX(pointstring, ','); // pointstring left with "id=num"
+  string idstring = pointstring;                  // set the last piece to idstring
+
+  // use bitStringX to break up around = sign
+  string xstr = biteStringX(xstring, '=');        //xstring now contains the num
+  string ystr = biteStringX(ystring, '=');        //ystring now contains the num
+  string idstr = biteStringX(idstring, '=');        //idstring now contains the num
+
+  // turn the strings into doubles, variables defined above
+  double x     = stod(xstring.c_str());
+  double y     = stod(ystring.c_str());
+  XYPoint point(x, y);
+
+// Save that x,y in an unordered list of xy points
+  m_xypointsort.push_back(point);
+     
+}
+
+//---------------------------------------------------------
+// Procedure: OnConnectToServer
+
+bool GenPath::OnConnectToServer()
+{
+   registerVariables();
+   return(true);
+}
+
+//---------------------------------------------------------
+// Procedure: Iterate()
+//            happens AppTick times per second
+
+bool GenPath::Iterate()
+{
+  AppCastingMOOSApp::Iterate();
+  // Do your thing here!
+
+  // The purpose of this block is to generate a path of least resistance
+  // First, iterate through the list of xypoints to create path
+  list<XYPoint>::iterator p;
+  for(p=m_xypointsort.begin(); p!=m_xypointsort.end(); p++){
+
+
+  }
+
+  // Output to seglist
+  m_seglist.add_vertex(100,-152);
+
+  // Change to strings
+  string updatestring = "points = ";
+  updatestring += m_seglist.get_spec();
+
+  // Notify TSP_UPDATES
+  Notify("TSP_UPDATES", updatestring);
+
+
+  AppCastingMOOSApp::PostReport();
+  return(true);
+}
+
+//---------------------------------------------------------
+// Procedure: OnStartUp()
+//            happens before connection is open
+
+bool GenPath::OnStartUp()
+{
+  AppCastingMOOSApp::OnStartUp();
+
+  STRING_LIST sParams;
+  m_MissionReader.EnableVerbatimQuoting(false);
+  if(!m_MissionReader.GetConfiguration(GetAppName(), sParams))
+    reportConfigWarning("No config block found for " + GetAppName());
+
+  STRING_LIST::iterator p;
+  for(p=sParams.begin(); p!=sParams.end(); p++) {
+    string orig  = *p;
+    string line  = *p;
+    string param = tolower(biteStringX(line, '='));
+    string value = line;
+
+    bool handled = false;
+    if(param == "foo") {
+      handled = true;
+    }
+    else if(param == "bar") {
+      handled = true;
+    }
+    else if(param == "start_pos") {
+      // Work with vehicle 1
+     m_startpos = value; //save the start position
+     m_tsppoints.push_back(value);  // make start pos the first entry in tsppoints
+     ConvertPoint(value);
+     handled = true;
+    }
+
+    if(!handled)
+      reportUnhandledConfigWarning(orig);
+
+  }
+  
+  registerVariables();	
+  return(true);
+}
+
+//---------------------------------------------------------
+// Procedure: registerVariables
+
+void GenPath::registerVariables()
+{
+  AppCastingMOOSApp::RegisterVariables();
+  // Register("FOOBAR", 0);
+  // There should be one generated for EACH vehicle
+  Register("VISIT_POINT",0);
+  
+}
+
+
+//------------------------------------------------------------
+// Procedure: buildReport()
+
+bool GenPath::buildReport() 
+{
+  m_msgs << "============================================" << endl;
+  m_msgs << "File: GenPath.cpp                                      " << endl;
+  m_msgs << "============================================" << endl;
+
+  ACTable actab(4);
+  actab << "Hopefully we have a path";
+  actab.addHeaderLines();
+  actab << "Path Generated!";
+  m_msgs << actab.getFormattedString();
+
+  return(true);
+}
+
+
+
+

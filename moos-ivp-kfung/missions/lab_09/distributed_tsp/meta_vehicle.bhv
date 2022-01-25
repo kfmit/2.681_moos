@@ -1,0 +1,293 @@
+//-----------------------------------------------
+// Helm Behavior file 
+
+initialize   DEPLOY  = true
+initialize   RETURN  = false
+initialize   STATION_KEEP = false
+initialize   LOITER  = true
+initialize   REFUEL = false
+initialize   AUTO_REFUEL = false
+initialize   TSP = true
+
+
+set MODE = ACTIVE {
+  DEPLOY = true
+} INACTIVE
+                    
+
+set MODE = RETURNING {
+  MODE = ACTIVE
+  RETURN = true
+} 
+
+
+set MODE = REFUELING {
+  MODE = ACTIVE
+  REFUEL = true
+}
+
+set MODE = AUTO_REFUELING {
+  MODE = ACTIVE
+  AUTO_REFUEL = true
+}
+
+
+set MODE = STATION-KEEPING {
+  MODE = ACTIVE
+  STATION_KEEP = true
+}   
+
+set MODE = TSP_MODE{
+  MODE = ACTIVE
+  TSP = true
+
+}
+
+set MODE = REGEN_MODE{
+  MODE = ACTIVE
+  GENPATH_REGENERATE = true
+
+}
+
+//set MODE = LOITERING {
+//  MODE = ACTIVE
+//  LOITER = true
+//} 
+
+
+
+//----------------------------------------------
+//Behavior = BHV_Loiter
+//{
+//  name      = loiter
+//  pwt       = 100
+//  condition = MODE==LOITERING
+//
+//   post_suffix = A
+//         speed = 1.2
+//     clockwise = false
+//        radius = 8.0
+//     nm_radius = 15.0
+//       polygon = radial::$(LOITER_POS), radius=20, pts=8, snap=1, label=$(VNAME)_LOITER
+//
+//  visual_hints = nextpt_color=white, nextpt_lcolor=khaki
+//  visual_hints = edge_color=orange, vertex_color=white
+//  visual_hints = edge_size=1, vertex_size=2
+//}
+
+//----------------------------------------------
+// TSP Points, 
+Behavior = BHV_Waypoint
+{
+  name      = waypt_tsp
+  pwt       = 100
+  greedy_tour = true
+  updates   = TSP_UPDATES   // personal tsp update variable of points
+
+  condition = DEPLOY=true
+  condition = MODE==TSP_MODE
+  endflag   = RETURN = true
+  endflag   = GENPATH_REGENERATE = true
+  perpetual = true
+
+      speed = 1.2
+     radius = 3.0
+  nm_radius = 15.0
+  // NOTIFY TSP_UPDATES with points = #,#: #,#:
+
+     //points = $(START_POS)
+       lead = 8
+}
+
+//----------------------------------------------
+// REGENERATED Points, 
+Behavior = BHV_Waypoint
+{
+  name      = waypt_regen
+  pwt       = 100
+  greedy_tour = true
+  updates   = REGEN_UPDATES   // personal tsp update variable of points
+
+  condition = DEPLOY=true
+  condition = MODE==REGEN_MODE
+  endflag   = RETURN = true
+  endflag   = GENPATH_REGENERATE = false
+  perpetual = true
+
+      speed = 1.2
+     radius = 3.0
+  nm_radius = 15.0
+  // NOTIFY TSP_UPDATES with points = #,#: #,#:
+
+     //points = $(START_POS)
+       lead = 8
+}
+
+
+//----------------------------------------------
+// RETURN POINT, Works
+Behavior = BHV_Waypoint
+{
+  name      = waypt_return
+  pwt       = 100
+  condition = MODE==RETURNING
+  endflag   = STATION_KEEP = true
+  perpetual = true
+
+      speed = 1.2
+     radius = 3.0
+  nm_radius = 15.0
+  slip_radius = 15.0
+     points = $(START_POS)
+       lead = 8
+}
+
+//----------------------------------------------
+// Leftover from lab 8, works
+Behavior = BHV_StationKeep
+{
+  name      = station-keep
+  pwt       = 100
+  condition = MODE==STATION-KEEPING
+
+   center_activate = true
+      inner_radius = 5
+      outer_radius = 10 
+       outer_speed = 1.0
+     transit_speed = 1.2
+        swing_time = 7
+      visual_hints = vertex_size=0, edge_color=gray50
+}
+
+//---------------------------------------------------------
+// AUTO REFUELING: 600 s timer
+//---------------------------------------------------------
+ Behavior = BHV_Timer
+ {
+   // General Behavior Parameters
+   // ---------------------------
+   name         = no_refuel_needed            // timer for refuel
+   perpetual = true
+  
+   // conditions to run 300s timer
+   condition    = AUTO_REFUEL=false           // timer doesn't run when refueling
+   condition    = REFUEL=false                // ^^
+   condition    = DEPLOY=true
+   condition    = STATION_KEEP=false          // should only go when station keep is not true
+
+   // make a duration of 600 s, reset also  
+   duration     = 600                  // 60 s wait
+
+   duration_reset =AUTO_ATSTART=false        // now it will reset the 60s time when REFUEL is true 
+   duration_idle_decay = false             // clock paused til conditions met
+   
+   // when 300s have passed
+   endflag    = AUTO_REFUEL=true          // this should start the whole auto refuel process
+
+   updates      = 300_TIMER_UPDATES        // example
+
+   // Parameters specific to this behavior
+   // ------------------------------------
+   // None
+ }
+
+
+//----------------------------------------------------------
+// BLOCKS FOR MANUAL REFUELING
+//----------------------------------------------------------
+Behavior = BHV_Waypoint
+{
+  name      = refuel_point   //on refuel, goes to start and stationkeeps
+  pwt       = 100
+  
+  condition = REFUEL=true //triggerd by hitting refuel
+  condition = MODE==REFUELING
+
+  endflag = ATSTART=true // and then start the timer
+  
+  
+  perpetual = true
+
+      speed = 1.2
+     radius = 3.0
+  nm_radius = 15.0
+     points = $(START_POS)
+       lead = 8
+}
+
+// --------------------------------------------------------------
+ Behavior = BHV_Timer
+ {
+   // General Behavior Parameters
+   // ---------------------------
+   name         = A_refuel_timer            // timer for refuel
+   perpetual = true
+
+   condition    = ATSTART=true
+
+   // make a duration of 60 s, reset also  
+   duration     = 60                  // 60 s wait
+   duration_reset =REFUEL=true        // now it will reset the 60s time when REFUEL is true 
+  
+   endflag    = LOITER=true         // turn on loitering mode
+   endflag    = REFUEL=false        // i think this should go back to loitering
+   endflag    = ATSTART=false       // so the timer will restart again
+   
+
+   updates      = TIMER_UPDATES        // example
+
+   // Parameters specific to this behavior
+   // ------------------------------------
+   // None
+ }
+
+
+//-----------------------------------------------------
+// BLOCKS FOR AUTO REFUELING
+//-----------------------------------------------------
+
+Behavior = BHV_Waypoint
+{
+  name      = auto_refuel_point   //on refuel, goes to start and stationkeeps
+  pwt       = 100
+  
+  condition = AUTO_REFUEL=true //triggerd by hitting refuel
+  condition = MODE==AUTO_REFUELING
+
+  endflag = AUTO_ATSTART=true // and then start the timer
+  
+  
+  perpetual = true
+
+      speed = 1.2
+     radius = 3.0
+  nm_radius = 15.0
+     points = $(START_POS)
+       lead = 8
+}
+
+ Behavior = BHV_Timer
+ {
+   // General Behavior Parameters
+   // ---------------------------
+   name         = B_autorefuel_timer            // timer for refuel
+   perpetual = true
+   duration_idle_decay = false                  // do not run while stationkeeping
+   
+   condition    = AUTO_ATSTART=true
+
+   // make a duration of 60 s, reset also  
+   duration     = 60                  // 60 s wait
+   duration_reset =AUTO_REFUEL=true        // now it will reset the 60s time when REFUEL is true 
+  
+   endflag    = LOITER=true         // turn on loitering mode
+   endflag    = AUTO_REFUEL=false        // i think this should go back to loitering
+   endflag    = AUTO_ATSTART=false       // so the timer will restart again
+   
+
+   updates      = TIMER_UPDATES        // example
+
+   // Parameters specific to this behavior
+   // ------------------------------------
+   // None
+ }

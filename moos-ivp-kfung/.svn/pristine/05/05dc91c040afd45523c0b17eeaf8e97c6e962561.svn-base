@@ -1,0 +1,1403 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% LOG FILE:       ./MOOSLog_10_3_2021_____20_08_50/MOOSLog_10_3_2021_____20_08_50.alog
+%% FILE OPENED ON  Wed Dec 31 19:00:00 1969
+%% LOGSTART               1615424929.24
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+1.496           NUM_VALUE            uTimerScript    112582705942171 
+1.626           PRIME_RESULT         pPrimeFactor    original number:112582705942171; received index:0; calculated index:0; prime factors are:none 
+0.884           DB_EVENT             MOOSDB_prime    connected=uXMS_832 
+1.085           DB_TIME              MOOSDB_prime    1615424930.32703 
+1.085           DB_UPTIME            MOOSDB_prime    2.01149      
+1.085           DB_CLIENTS           MOOSDB_prime    uXMS_832,pLogger,uTimerScript,pPrimeFactor, 
+1.093           DB_VARSUMMARY        MOOSDB_prime    APPCAST              20:08:49.507         pPrimeFactor         0.0 Hz S  proc=pPrimeFactor!@#it...
+APPCAST_REQ          18:59:59.000         (write pending)      0.0 Hz ~  
+DB_CLIENTS           20:08:50.327         MOOSDB_prime         0.0 Hz S  uXMS_832,pLogger,uTime...
+DB_EVENT             20:08:50.126         MOOSDB_prime         1.6 Hz S  connected=uXMS_832
+DB_QOS               20:08:48.310         MOOSDB#1             0.0 Hz S  
+DB_RWSUMMARY         20:08:48.310         MOOSDB#1             0.0 Hz S  
+DB_TIME              20:08:50.327         MOOSDB_prime         0.0 Hz D  1615424930.3
+DB_UPTIME            20:08:50.327         MOOSDB_prime         0.0 Hz D  2.0
+DB_VARSUMMARY        20:08:48.310         MOOSDB#1             0.0 Hz S  
+EXITED_NORMALLY      18:59:59.000         (write pending)      0.0 Hz ~  
+LOGGER_RESTART       18:59:59.000         (write pending)      0.0 Hz ~  
+NUM_VALUE            18:59:59.000         (write pending)      0.0 Hz ~  
+PPRIMEFACTOR_ITER_GAP 20:08:50.327         pPrimeFactor         2.0 Hz D  1.0
+PPRIMEFACTOR_ITER_LEN 20:08:50.327         pPrimeFactor         1.7 Hz D  0.0
+PPRIMEFACTOR_STATUS  20:08:49.485         pPrimeFactor         0.0 Hz S  AppErrorFlag=false,Upt...
+UTS_FORWARD          18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_PAUSE            18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_RESET            18:59:59.000         (write pending)      0.0 Hz ~  
+ 
+1.093           DB_QOS               MOOSDB_prime    pLogger=0:244.229:244.229:0,pPrimeFactor=0:318.415:10.1469:0,uTimerScript=0:42.6979:42.6979:0,uXMS_832=0:16.8018:16.8018:0, 
+1.093           DB_RWSUMMARY         MOOSDB_prime    uXMS_832=APPCAST_REQ:DB_UPTIME&,pLogger=LOGGER_RESTART&,uTimerScript=APPCAST_REQ:DB_CLIENTS:DB_UPTIME:EXITED_NORMALLY:UTS_FORWARD:UTS_PAUSE:UTS_RESET&,pPrimeFactor=APPCAST_REQ:NUM_VALUE&APPCAST:PPRIMEFACTOR_ITER_GAP:PPRIMEFACTOR_ITER_LEN:PPRIMEFACTOR_STATUS 
+1.157           LOGGER_DIRECTORY     pLogger         ./MOOSLog_10_3_2021_____20_08_50 
+1.496           NUM_VALUE            uTimerScript    112582705942171 
+1.606           UTIMERSCRIPT_ITER_GAP uTimerScript    1.09827      
+1.606           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00071      
+1.610           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.13466      
+1.626           PRIME_RESULT         pPrimeFactor    original number:112582705942171; received index:0; calculated index:0; prime factors are:none 
+1.626           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.16001      
+1.643           APPCAST              uXMS_832        proc=uXMS_832!@#iter=1!@#node=prime!@#iter=1!@#messages=VarName       (S)  (T)  (C)  VarValue (SCOPING:[7;32mEVENTS[0m)!@------------  ---  ---  ---  -------------------------!@NUM_VALUE                    "112582705942171"!@PRIME_RESULT                 "original number:112582705942171; received index:0; calculated index:0; prime factors are:none"!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+1.713           UTIMERSCRIPT_ITER_GAP uTimerScript    1.07413      
+1.713           NUM_VALUE            uTimerScript    115797848077099 
+1.713           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00154      
+1.713           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.03074      
+1.713           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00036      
+1.814           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00527      
+1.814           UTIMERSCRIPT_ITER_GAP uTimerScript    1.01213      
+1.814           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00044      
+1.833           PRIME_RESULT         pPrimeFactor    original number:115797848077099; received index:1; calculated index:1; prime factors are:none 
+1.833           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.18741      
+1.915           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00920      
+1.915           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00045      
+1.915           UTIMERSCRIPT_ITER_GAP uTimerScript    1.00548      
+1.915           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00046      
+2.016           UTIMERSCRIPT_ITER_GAP uTimerScript    1.00875      
+2.016           NUM_VALUE            uTimerScript    117463495419967 
+2.016           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00186      
+2.016           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01321      
+2.016           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00040      
+2.118           UTIMERSCRIPT_ITER_GAP uTimerScript    1.02198      
+2.118           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00047      
+2.118           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.02027      
+2.135           PRIME_RESULT         pPrimeFactor    original number:117463495419967; received index:2; calculated index:2; prime factors are:none 
+2.135           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.16392      
+2.219           UTIMERSCRIPT_ITER_GAP uTimerScript    1.00522      
+2.219           NUM_VALUE            uTimerScript    125 
+2.219           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00146      
+2.219           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01111      
+2.219           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00047      
+2.319           UTIMERSCRIPT_ITER_GAP uTimerScript    1.00584      
+2.319           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00048      
+2.321           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01692      
+2.325           PRIME_RESULT         pPrimeFactor    original number:125; received index:3; calculated index:3; prime factors are:5, 5, 5,  
+2.325           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.04204      
+2.421           UTIMERSCRIPT_ITER_GAP uTimerScript    1.01852      
+2.421           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00077      
+2.423           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01674      
+2.423           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00043      
+2.528           UTIMERSCRIPT_ITER_GAP uTimerScript    1.07071      
+2.528           NUM_VALUE            uTimerScript    225 
+2.528           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.05466      
+2.528           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00162      
+2.528           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00065      
+2.629           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00378      
+2.629           UTIMERSCRIPT_ITER_GAP uTimerScript    1.00954      
+2.629           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00042      
+2.638           PRIME_RESULT         pPrimeFactor    original number:225; received index:4; calculated index:4; prime factors are:3, 3, 5, 5,  
+2.639           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.09879      
+0.884           DB_EVENT             MOOSDB_prime    connected=uXMS_832 
+1.085           DB_TIME              MOOSDB_prime    1615424930.32703 
+1.085           DB_UPTIME            MOOSDB_prime    2.01149      
+1.085           DB_CLIENTS           MOOSDB_prime    uXMS_832,pLogger,uTimerScript,pPrimeFactor, 
+1.093           DB_VARSUMMARY        MOOSDB_prime    APPCAST              20:08:49.507         pPrimeFactor         0.0 Hz S  proc=pPrimeFactor!@#it...
+APPCAST_REQ          18:59:59.000         (write pending)      0.0 Hz ~  
+DB_CLIENTS           20:08:50.327         MOOSDB_prime         0.0 Hz S  uXMS_832,pLogger,uTime...
+DB_EVENT             20:08:50.126         MOOSDB_prime         1.6 Hz S  connected=uXMS_832
+DB_QOS               20:08:48.310         MOOSDB#1             0.0 Hz S  
+DB_RWSUMMARY         20:08:48.310         MOOSDB#1             0.0 Hz S  
+DB_TIME              20:08:50.327         MOOSDB_prime         0.0 Hz D  1615424930.3
+DB_UPTIME            20:08:50.327         MOOSDB_prime         0.0 Hz D  2.0
+DB_VARSUMMARY        20:08:48.310         MOOSDB#1             0.0 Hz S  
+EXITED_NORMALLY      18:59:59.000         (write pending)      0.0 Hz ~  
+LOGGER_RESTART       18:59:59.000         (write pending)      0.0 Hz ~  
+NUM_VALUE            18:59:59.000         (write pending)      0.0 Hz ~  
+PPRIMEFACTOR_ITER_GAP 20:08:50.327         pPrimeFactor         2.0 Hz D  1.0
+PPRIMEFACTOR_ITER_LEN 20:08:50.327         pPrimeFactor         1.7 Hz D  0.0
+PPRIMEFACTOR_STATUS  20:08:49.485         pPrimeFactor         0.0 Hz S  AppErrorFlag=false,Upt...
+UTS_FORWARD          18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_PAUSE            18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_RESET            18:59:59.000         (write pending)      0.0 Hz ~  
+ 
+1.093           DB_QOS               MOOSDB_prime    pLogger=0:244.229:244.229:0,pPrimeFactor=0:318.415:10.1469:0,uTimerScript=0:42.6979:42.6979:0,uXMS_832=0:16.8018:16.8018:0, 
+1.093           DB_RWSUMMARY         MOOSDB_prime    uXMS_832=APPCAST_REQ:DB_UPTIME&,pLogger=LOGGER_RESTART&,uTimerScript=APPCAST_REQ:DB_CLIENTS:DB_UPTIME:EXITED_NORMALLY:UTS_FORWARD:UTS_PAUSE:UTS_RESET&,pPrimeFactor=APPCAST_REQ:NUM_VALUE&APPCAST:PPRIMEFACTOR_ITER_GAP:PPRIMEFACTOR_ITER_LEN:PPRIMEFACTOR_STATUS 
+1.157           LOGGER_DIRECTORY     pLogger         ./MOOSLog_10_3_2021_____20_08_50 
+1.643           APPCAST              uXMS_832        proc=uXMS_832!@#iter=1!@#node=prime!@#iter=1!@#messages=VarName       (S)  (T)  (C)  VarValue (SCOPING:[7;32mEVENTS[0m)!@------------  ---  ---  ---  -------------------------!@NUM_VALUE                    "112582705942171"!@PRIME_RESULT                 "original number:112582705942171; received index:0; calculated index:0; prime factors are:none"!@!@#!@#events_total=0!@#!@#run_warning_total=0!@# 
+2.638           PRIME_RESULT         pPrimeFactor    original number:225; received index:4; calculated index:4; prime factors are:3, 3, 5, 5,  
+2.653           UXMS_832_ITER_GAP    uXMS_832        1.00746      
+2.653           UXMS_832_ITER_LEN    uXMS_832        0.00031      
+2.729           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00665      
+2.729           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00665      
+2.729           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00116      
+2.729           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00116      
+2.733           UTIMERSCRIPT_ITER_GAP uTimerScript    1.04272      
+2.733           UTIMERSCRIPT_ITER_GAP uTimerScript    1.04272      
+2.733           NUM_VALUE            uTimerScript    325 
+2.733           NUM_VALUE            uTimerScript    325 
+2.733           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00131      
+2.733           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00131      
+2.830           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01029      
+2.832           PRIME_RESULT         pPrimeFactor    original number:325; received index:5; calculated index:5; prime factors are:5, 5, 13,  
+2.832           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.01382      
+2.834           UTIMERSCRIPT_ITER_GAP uTimerScript    1.00721      
+2.834           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00059      
+2.858           UXMS_832_ITER_GAP    uXMS_832        1.02573      
+2.858           UXMS_832_ITER_LEN    uXMS_832        0.00022      
+2.931           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00749      
+2.931           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00055      
+2.935           UTIMERSCRIPT_ITER_GAP uTimerScript    1.01321      
+2.935           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00045      
+3.034           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.02852      
+3.034           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00049      
+3.036           UTIMERSCRIPT_ITER_GAP uTimerScript    1.00475      
+3.036           NUM_VALUE            uTimerScript    123939877913659 
+3.036           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00139      
+3.059           UXMS_832_ITER_GAP    uXMS_832        1.00286      
+3.059           UXMS_832_ITER_LEN    uXMS_832        0.00020      
+3.139           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.04839      
+3.146           UTIMERSCRIPT_ITER_GAP uTimerScript    1.10415      
+3.146           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00078      
+3.153           PRIME_RESULT         pPrimeFactor    original number:123939877913659; received index:6; calculated index:6; prime factors are:none 
+3.153           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.14440      
+3.153           DB_TIME              MOOSDB_prime    1615424932.39554 
+3.153           DB_UPTIME            MOOSDB_prime    4.07996      
+3.153           DB_CLIENTS           MOOSDB_prime    uXMS_832,pLogger,uTimerScript,pPrimeFactor, 
+3.156           DB_VARSUMMARY        MOOSDB_prime    APPCAST              20:08:50.888         uXMS_832             0.5 Hz S  proc=uXMS_832!@#iter=1...
+APPCAST_REQ          18:59:59.000         (write pending)      0.0 Hz ~  
+DB_CLIENTS           20:08:52.395         MOOSDB_prime         0.2 Hz S  uXMS_832,pLogger,uTime...
+DB_EVENT             20:08:50.126         MOOSDB_prime         1.6 Hz S  connected=uXMS_832
+DB_QOS               20:08:50.335         MOOSDB_prime         0.0 Hz S  pLogger=0:244.229:244....
+DB_RWSUMMARY         20:08:50.335         MOOSDB_prime         0.0 Hz S  uXMS_832=APPCAST_REQ:D...
+DB_TIME              20:08:52.395         MOOSDB_prime         0.2 Hz D  1615424932.4
+DB_UPTIME            20:08:52.395         MOOSDB_prime         0.2 Hz D  4.1
+DB_VARSUMMARY        20:08:50.335         MOOSDB_prime         0.0 Hz S  APPCAST              2...
+EXITED_NORMALLY      18:59:59.000         (write pending)      0.0 Hz ~  
+LOGGER_DIRECTORY     20:08:50.401         pLogger              0.0 Hz S  ./MOOSLog_10_3_2021___...
+LOGGER_RESTART       18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_DEBUG           18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_SYSTEM          18:59:59.000         (write pending)      0.0 Hz ~  
+NUM_VALUE            20:08:52.282         uTimerScript         2.9 Hz S  123939877913659
+PLOGGER_CMD          18:59:59.000         (write pending)      0.0 Hz ~  
+PLOGGER_STATUS       20:08:50.711         pLogger              0.0 Hz S  AppErrorFlag=false,Upt...
+PPRIMEFACTOR_ITER_GAP 20:08:52.395         pPrimeFactor         9.5 Hz D  1.0
+PPRIMEFACTOR_ITER_LEN 20:08:52.277         pPrimeFactor         9.6 Hz D  0.0
+PPRIMEFACTOR_STATUS  20:08:51.564         pPrimeFactor         0.2 Hz S  AppErrorFlag=false,Upt...
+PRIME_RESULT         20:08:52.074         pPrimeFactor         3.1 Hz S  original number:325; r...
+UTIMERSCRIPT_ITER_GAP 20:08:52.282         uTimerScript         8.5 Hz D  1.0
+UTIMERSCRIPT_ITER_LEN 20:08:52.282         uTimerScript         8.6 Hz D  0.0
+UTIMERSCRIPT_STATUS  20:08:50.453         uTimerScript         0.0 Hz S  AppErrorFlag=false,Upt...
+UTS_FORWARD          18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_PAUSE            18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_RESET            18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_STATUS           20:08:52.282         uTimerScript         2.8 Hz S  name=unnamed, elapsed_...
+UXMS_832_ITER_GAP    20:08:52.301         uXMS_832             3.7 Hz D  1.0
+UXMS_832_ITER_LEN    20:08:52.301         uXMS_832             3.7 Hz D  0.0
+UXMS_832_STATUS      20:08:50.888         uXMS_832             0.0 Hz S  AppErrorFlag=false,Upt...
+ 
+3.157           DB_QOS               MOOSDB_prime    pLogger=0:244.229:1.54519:0,pPrimeFactor=0:318.415:2.11811:0,uTimerScript=0:42.6979:2.07901:0,uXMS_832=0:16.8018:0.332832:0, 
+3.157           DB_RWSUMMARY         MOOSDB_prime    uXMS_832=APPCAST_REQ:DB_UPTIME:NUM_VALUE:PRIME_RESULT&APPCAST:UXMS_832_ITER_GAP:UXMS_832_ITER_LEN:UXMS_832_STATUS,pLogger=APPCAST:APPCAST_REQ:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:EXITED_NORMALLY:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:NUM_VALUE:PLOGGER_CMD:PPRIMEFACTOR_ITER_GAP:PPRIMEFACTOR_ITER_LEN:PRIME_RESULT:UTIMERSCRIPT_ITER_GAP:UTIMERSCRIPT_ITER_LEN:UTS_FORWARD:UTS_PAUSE:UTS_RESET:UXMS_832_ITER_GAP:UXMS_832_ITER_LEN&LOGGER_DIRECTORY:PLOGGER_STATUS,uTimerScript=APPCAST_REQ:DB_CLIENTS:DB_UPTIME:EXITED_NORMALLY:UTS_FORWARD:UTS_PAUSE:UTS_RESET&APPCAST:NUM_VALUE:UTIMERSCRIPT_ITER_GAP:UTIMERSCRIPT_ITER_LEN:UTIMERSCRIPT_STATUS:UTS_STATUS,pPrimeFactor=APPCAST_REQ:NUM_VALUE&APPCAST:PPRIMEFACTOR_ITER_GAP:PPRIMEFACTOR_ITER_LEN:PPRIMEFACTOR_STATUS:PRIME_RESULT 
+3.241           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.02370      
+3.241           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00057      
+3.245           UTIMERSCRIPT_ITER_GAP uTimerScript    0.99202      
+3.245           NUM_VALUE            uTimerScript    126794093929207 
+3.246           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00100      
+3.260           UXMS_832_ITER_GAP    uXMS_832        1.00723      
+3.260           UXMS_832_ITER_LEN    uXMS_832        0.00021      
+3.343           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.02365      
+3.350           UTIMERSCRIPT_ITER_GAP uTimerScript    1.04311      
+3.350           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00041      
+3.358           PRIME_RESULT         pPrimeFactor    original number:126794093929207; received index:7; calculated index:7; prime factors are:none 
+3.359           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.15136      
+3.445           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01719      
+3.445           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00060      
+3.451           UTIMERSCRIPT_ITER_GAP uTimerScript    1.00859      
+3.451           NUM_VALUE            uTimerScript    129263144299543 
+3.451           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00183      
+3.461           UXMS_832_ITER_GAP    uXMS_832        1.00322      
+3.461           UXMS_832_ITER_LEN    uXMS_832        0.00022      
+3.548           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.03318      
+3.552           UTIMERSCRIPT_ITER_GAP uTimerScript    1.01687      
+3.552           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00043      
+3.563           PRIME_RESULT         pPrimeFactor    original number:129263144299543; received index:8; calculated index:8; prime factors are:none 
+3.563           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.14890      
+3.650           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01236      
+3.650           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00045      
+3.655           UTIMERSCRIPT_ITER_GAP uTimerScript    1.02825      
+3.655           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00065      
+3.661           UXMS_832_ITER_GAP    uXMS_832        1.00325      
+3.661           UXMS_832_ITER_LEN    uXMS_832        0.00011      
+3.758           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.08245      
+3.758           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00091      
+3.761           UTIMERSCRIPT_ITER_GAP uTimerScript    1.06217      
+3.761           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00046      
+3.859           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01221      
+3.859           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00046      
+3.862           UXMS_832_ITER_GAP    uXMS_832        1.00239      
+3.862           UXMS_832_ITER_LEN    uXMS_832        0.00022      
+3.862           UTIMERSCRIPT_ITER_GAP uTimerScript    1.00563      
+3.862           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00059      
+3.961           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01895      
+3.961           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00054      
+3.963           UTIMERSCRIPT_ITER_GAP uTimerScript    1.00706      
+3.963           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00053      
+4.062           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00811      
+4.062           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00065      
+4.063           UTIMERSCRIPT_ITER_GAP uTimerScript    1.00875      
+4.064           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00070      
+4.064           UXMS_832_ITER_GAP    uXMS_832        1.00961      
+4.064           UXMS_832_ITER_LEN    uXMS_832        0.00024      
+4.163           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00766      
+4.163           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00044      
+4.165           UTIMERSCRIPT_ITER_GAP uTimerScript    1.01448      
+4.165           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00045      
+4.264           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01439      
+4.264           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00040      
+4.264           UXMS_832_ITER_GAP    uXMS_832        1.00240      
+4.264           UXMS_832_ITER_LEN    uXMS_832        0.00023      
+4.266           UTIMERSCRIPT_ITER_GAP uTimerScript    1.00652      
+4.266           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00059      
+4.365           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00597      
+4.365           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00021      
+4.367           UTIMERSCRIPT_ITER_GAP uTimerScript    1.01547      
+4.367           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00039      
+4.465           UXMS_832_ITER_GAP    uXMS_832        1.00200      
+4.465           UXMS_832_ITER_LEN    uXMS_832        0.00031      
+4.465           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00511      
+4.465           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00039      
+4.468           UTIMERSCRIPT_ITER_GAP uTimerScript    1.01365      
+4.469           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00043      
+4.568           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.02957      
+4.568           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00077      
+4.569           UTIMERSCRIPT_ITER_GAP uTimerScript    1.00778      
+4.569           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00066      
+4.665           UXMS_832_ITER_GAP    uXMS_832        1.00322      
+4.665           UXMS_832_ITER_LEN    uXMS_832        0.00025      
+4.672           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.03704      
+4.672           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00121      
+4.672           UTIMERSCRIPT_ITER_GAP uTimerScript    1.02874      
+4.672           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00129      
+4.773           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01219      
+4.773           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00060      
+4.773           UTIMERSCRIPT_ITER_GAP uTimerScript    1.01155      
+4.773           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00055      
+4.866           UXMS_832_ITER_GAP    uXMS_832        1.00346      
+4.866           UXMS_832_ITER_LEN    uXMS_832        0.00050      
+4.874           UTIMERSCRIPT_ITER_GAP uTimerScript    1.00871      
+4.874           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00076      
+4.874           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01331      
+4.874           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00041      
+4.983           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.08396      
+4.983           UTIMERSCRIPT_ITER_GAP uTimerScript    1.08652      
+4.983           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00075      
+4.983           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00075      
+5.067           UXMS_832_ITER_GAP    uXMS_832        1.00603      
+5.067           UXMS_832_ITER_LEN    uXMS_832        0.00028      
+5.084           UTIMERSCRIPT_ITER_GAP uTimerScript    1.01273      
+5.084           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00053      
+5.084           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01414      
+5.084           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00052      
+5.191           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.06666      
+5.191           UTIMERSCRIPT_ITER_GAP uTimerScript    1.06895      
+5.191           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00162      
+5.191           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00183      
+5.195           DB_TIME              MOOSDB_prime    1615424934.43751 
+5.195           DB_UPTIME            MOOSDB_prime    6.12194      
+5.195           DB_CLIENTS           MOOSDB_prime    uXMS_832,pLogger,uTimerScript,pPrimeFactor, 
+5.200           DB_VARSUMMARY        MOOSDB_prime    APPCAST              20:08:50.888         uXMS_832             0.5 Hz S  proc=uXMS_832!@#iter=1...
+APPCAST_REQ          18:59:59.000         (write pending)      0.0 Hz ~  
+DB_CLIENTS           20:08:54.437         MOOSDB_prime         0.4 Hz S  uXMS_832,pLogger,uTime...
+DB_EVENT             20:08:50.126         MOOSDB_prime         1.6 Hz S  connected=uXMS_832
+DB_QOS               20:08:52.398         MOOSDB_prime         0.2 Hz S  pLogger=0:244.229:1.54...
+DB_RWSUMMARY         20:08:52.398         MOOSDB_prime         0.2 Hz S  uXMS_832=APPCAST_REQ:D...
+DB_TIME              20:08:54.437         MOOSDB_prime         0.4 Hz D  1615424934.4
+DB_UPTIME            20:08:54.437         MOOSDB_prime         0.4 Hz D  6.1
+DB_VARSUMMARY        20:08:52.398         MOOSDB_prime         0.2 Hz S  APPCAST              2...
+EXITED_NORMALLY      18:59:59.000         (write pending)      0.0 Hz ~  
+LOGGER_DIRECTORY     20:08:50.401         pLogger              0.0 Hz S  ./MOOSLog_10_3_2021___...
+LOGGER_RESTART       18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_DEBUG           18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_SYSTEM          18:59:59.000         (write pending)      0.0 Hz ~  
+NUM_VALUE            20:08:52.693         uTimerScript         3.6 Hz S  129263144299543
+PLOGGER_CMD          18:59:59.000         (write pending)      0.0 Hz ~  
+PLOGGER_STATUS       20:08:52.765         pLogger              0.2 Hz S  AppErrorFlag=false,Upt...
+PPRIMEFACTOR_ITER_GAP 20:08:54.330         pPrimeFactor         9.7 Hz D  1.0
+PPRIMEFACTOR_ITER_LEN 20:08:54.330         pPrimeFactor         9.7 Hz D  0.0
+PPRIMEFACTOR_STATUS  20:08:53.607         pPrimeFactor         0.4 Hz S  AppErrorFlag=false,Upt...
+PRIME_RESULT         20:08:52.808         pPrimeFactor         3.5 Hz S  original number:129263...
+UTIMERSCRIPT_ITER_GAP 20:08:54.437         uTimerScript         9.7 Hz D  1.1
+UTIMERSCRIPT_ITER_LEN 20:08:54.437         uTimerScript         9.7 Hz D  0.0
+UTIMERSCRIPT_STATUS  20:08:52.489         uTimerScript         0.2 Hz S  AppErrorFlag=false,Upt...
+UTS_FORWARD          18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_PAUSE            18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_RESET            18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_STATUS           20:08:52.693         uTimerScript         3.6 Hz S  name=unnamed, elapsed_...
+UXMS_832_ITER_GAP    20:08:54.310         uXMS_832             4.8 Hz D  1.0
+UXMS_832_ITER_LEN    20:08:54.310         uXMS_832             4.8 Hz D  0.0
+UXMS_832_STATUS      20:08:52.909         uXMS_832             0.2 Hz S  AppErrorFlag=false,Upt...
+ 
+5.200           DB_QOS               MOOSDB_prime    pLogger=16.917:244.229:0.978947:55.3402,pPrimeFactor=0.515223:318.415:0.515223:67.6858,uTimerScript=0.243902:42.6979:0.243902:11.6471,uXMS_832=0.377893:16.8018:0.332832:5.53894, 
+5.200           DB_RWSUMMARY         MOOSDB_prime    uXMS_832=APPCAST_REQ:DB_UPTIME:NUM_VALUE:PRIME_RESULT&APPCAST:UXMS_832_ITER_GAP:UXMS_832_ITER_LEN:UXMS_832_STATUS,pLogger=APPCAST:APPCAST_REQ:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:EXITED_NORMALLY:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:NUM_VALUE:PLOGGER_CMD:PPRIMEFACTOR_ITER_GAP:PPRIMEFACTOR_ITER_LEN:PRIME_RESULT:UTIMERSCRIPT_ITER_GAP:UTIMERSCRIPT_ITER_LEN:UTS_FORWARD:UTS_PAUSE:UTS_RESET:UXMS_832_ITER_GAP:UXMS_832_ITER_LEN&LOGGER_DIRECTORY:PLOGGER_STATUS,uTimerScript=APPCAST_REQ:DB_CLIENTS:DB_UPTIME:EXITED_NORMALLY:UTS_FORWARD:UTS_PAUSE:UTS_RESET&APPCAST:NUM_VALUE:UTIMERSCRIPT_ITER_GAP:UTIMERSCRIPT_ITER_LEN:UTIMERSCRIPT_STATUS:UTS_STATUS,pPrimeFactor=APPCAST_REQ:NUM_VALUE&APPCAST:PPRIMEFACTOR_ITER_GAP:PPRIMEFACTOR_ITER_LEN:PPRIMEFACTOR_STATUS:PRIME_RESULT 
+5.267           UXMS_832_ITER_GAP    uXMS_832        1.00175      
+5.268           UXMS_832_ITER_LEN    uXMS_832        0.00023      
+5.292           UTIMERSCRIPT_ITER_GAP uTimerScript    1.00809      
+5.292           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00023      
+5.293           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.02335      
+5.293           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00206      
+5.401           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.07866      
+5.401           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00063      
+5.401           UTIMERSCRIPT_ITER_GAP uTimerScript    1.09521      
+5.401           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00041      
+5.469           UXMS_832_ITER_GAP    uXMS_832        1.00893      
+5.469           UXMS_832_ITER_LEN    uXMS_832        0.00073      
+5.502           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01082      
+5.503           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00343      
+5.503           UTIMERSCRIPT_ITER_GAP uTimerScript    1.01939      
+5.503           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00065      
+5.604           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.02255      
+5.604           UTIMERSCRIPT_ITER_GAP uTimerScript    1.01190      
+5.604           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00053      
+5.604           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00055      
+5.673           UXMS_832_ITER_GAP    uXMS_832        1.01735      
+5.673           UXMS_832_ITER_LEN    uXMS_832        0.00013      
+5.706           UTIMERSCRIPT_ITER_GAP uTimerScript    1.01494      
+5.706           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00054      
+5.707           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.02116      
+5.707           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00185      
+5.842           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.35159      
+5.842           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00055      
+5.863           UTIMERSCRIPT_ITER_GAP uTimerScript    1.56709      
+5.863           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00045      
+5.874           UXMS_832_ITER_GAP    uXMS_832        1.00335      
+5.874           UXMS_832_ITER_LEN    uXMS_832        0.00145      
+5.943           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00846      
+5.943           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00064      
+5.963           UTIMERSCRIPT_ITER_GAP uTimerScript    1.00643      
+5.963           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00077      
+6.043           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00777      
+6.043           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00046      
+6.064           UTIMERSCRIPT_ITER_GAP uTimerScript    1.00884      
+6.064           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00050      
+6.074           UXMS_832_ITER_GAP    uXMS_832        1.00469      
+6.074           UXMS_832_ITER_LEN    uXMS_832        0.00025      
+6.149           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.05463      
+6.149           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00069      
+6.181           UTIMERSCRIPT_ITER_GAP uTimerScript    1.17016      
+6.181           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00072      
+6.257           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.07957      
+6.257           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00140      
+6.275           UXMS_832_ITER_GAP    uXMS_832        1.00530      
+6.275           UXMS_832_ITER_LEN    uXMS_832        0.00028      
+6.364           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.06962      
+6.364           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00221      
+6.385           UTIMERSCRIPT_ITER_GAP uTimerScript    2.03463      
+6.385           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00111      
+6.464           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00761      
+6.464           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00025      
+6.478           UXMS_832_ITER_GAP    uXMS_832        1.01392      
+6.478           UXMS_832_ITER_LEN    uXMS_832        0.00027      
+6.485           UTIMERSCRIPT_ITER_GAP uTimerScript    1.00764      
+6.485           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00073      
+6.565           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00500      
+6.565           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00048      
+6.587           UTIMERSCRIPT_ITER_GAP uTimerScript    1.01411      
+6.587           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00051      
+6.666           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00621      
+6.666           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00049      
+6.679           UXMS_832_ITER_GAP    uXMS_832        1.00613      
+6.679           UXMS_832_ITER_LEN    uXMS_832        0.00026      
+6.689           UTIMERSCRIPT_ITER_GAP uTimerScript    1.02626      
+6.690           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00079      
+6.766           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00744      
+6.766           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00049      
+6.790           UTIMERSCRIPT_ITER_GAP uTimerScript    1.01042      
+6.791           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00043      
+6.870           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.04070      
+6.870           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00043      
+6.881           UXMS_832_ITER_GAP    uXMS_832        1.00611      
+6.881           UXMS_832_ITER_LEN    uXMS_832        0.00026      
+6.891           UTIMERSCRIPT_ITER_GAP uTimerScript    1.00204      
+6.891           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00049      
+6.972           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.02031      
+6.972           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00058      
+6.991           UTIMERSCRIPT_ITER_GAP uTimerScript    1.00557      
+6.991           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00046      
+7.073           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01047      
+7.074           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00048      
+7.082           UXMS_832_ITER_GAP    uXMS_832        1.00847      
+7.082           UXMS_832_ITER_LEN    uXMS_832        0.00046      
+7.092           UTIMERSCRIPT_ITER_GAP uTimerScript    1.01039      
+7.092           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00059      
+7.174           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00900      
+7.174           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00045      
+7.193           UTIMERSCRIPT_ITER_GAP uTimerScript    1.00951      
+7.193           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00072      
+7.275           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00701      
+7.275           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00068      
+7.278           DB_TIME              MOOSDB_prime    1615424936.52039 
+7.278           DB_UPTIME            MOOSDB_prime    8.20481      
+7.278           DB_CLIENTS           MOOSDB_prime    uXMS_832,pLogger,uTimerScript,pPrimeFactor, 
+7.281           DB_VARSUMMARY        MOOSDB_prime    APPCAST              20:08:50.888         uXMS_832             0.5 Hz S  proc=uXMS_832!@#iter=1...
+APPCAST_REQ          18:59:59.000         (write pending)      0.0 Hz ~  
+DB_CLIENTS           20:08:56.520         MOOSDB_prime         0.4 Hz S  uXMS_832,pLogger,uTime...
+DB_EVENT             20:08:50.126         MOOSDB_prime         1.6 Hz S  connected=uXMS_832
+DB_QOS               20:08:54.442         MOOSDB_prime         0.4 Hz S  pLogger=16.917:244.229...
+DB_RWSUMMARY         20:08:54.442         MOOSDB_prime         0.4 Hz S  uXMS_832=APPCAST_REQ:D...
+DB_TIME              20:08:56.520         MOOSDB_prime         0.4 Hz D  1615424936.5
+DB_UPTIME            20:08:56.520         MOOSDB_prime         0.4 Hz D  8.2
+DB_VARSUMMARY        20:08:54.442         MOOSDB_prime         0.4 Hz S  APPCAST              2...
+EXITED_NORMALLY      18:59:59.000         (write pending)      0.0 Hz ~  
+LOGGER_DIRECTORY     20:08:50.401         pLogger              0.0 Hz S  ./MOOSLog_10_3_2021___...
+LOGGER_RESTART       18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_DEBUG           18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_SYSTEM          18:59:59.000         (write pending)      0.0 Hz ~  
+NUM_VALUE            20:08:52.693         uTimerScript         3.6 Hz S  129263144299543
+PLOGGER_CMD          18:59:59.000         (write pending)      0.0 Hz ~  
+PLOGGER_STATUS       20:08:54.794         pLogger              0.4 Hz S  AppErrorFlag=false,Upt...
+PPRIMEFACTOR_ITER_GAP 20:08:56.520         pPrimeFactor         9.7 Hz D  1.0
+PPRIMEFACTOR_ITER_LEN 20:08:56.520         pPrimeFactor         9.7 Hz D  0.0
+PPRIMEFACTOR_STATUS  20:08:55.707         pPrimeFactor         0.4 Hz S  AppErrorFlag=false,Upt...
+PRIME_RESULT         20:08:52.808         pPrimeFactor         3.5 Hz S  original number:129263...
+UTIMERSCRIPT_ITER_GAP 20:08:56.436         uTimerScript         9.2 Hz D  1.0
+UTIMERSCRIPT_ITER_LEN 20:08:56.436         uTimerScript         9.2 Hz D  0.0
+UTIMERSCRIPT_STATUS  20:08:54.539         uTimerScript         0.4 Hz S  AppErrorFlag=false,Upt...
+UTS_FORWARD          18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_PAUSE            18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_RESET            18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_STATUS           20:08:52.693         uTimerScript         3.6 Hz S  name=unnamed, elapsed_...
+UXMS_832_ITER_GAP    20:08:56.325         uXMS_832             5.0 Hz D  1.0
+UXMS_832_ITER_LEN    20:08:56.325         uXMS_832             5.0 Hz D  0.0
+UXMS_832_STATUS      20:08:54.917         uXMS_832             0.4 Hz S  AppErrorFlag=false,Upt...
+ 
+7.281           DB_QOS               MOOSDB_prime    pLogger=4.68111:244.229:0.978947:52.893,pPrimeFactor=1.98507:318.415:0.515223:67.9798,uTimerScript=0.304937:42.6979:0.243902:11.6593,uXMS_832=0.663996:16.8018:0.332832:5.59616, 
+7.281           DB_RWSUMMARY         MOOSDB_prime    uXMS_832=APPCAST_REQ:DB_UPTIME:NUM_VALUE:PRIME_RESULT&APPCAST:UXMS_832_ITER_GAP:UXMS_832_ITER_LEN:UXMS_832_STATUS,pLogger=APPCAST:APPCAST_REQ:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:EXITED_NORMALLY:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:NUM_VALUE:PLOGGER_CMD:PPRIMEFACTOR_ITER_GAP:PPRIMEFACTOR_ITER_LEN:PRIME_RESULT:UTIMERSCRIPT_ITER_GAP:UTIMERSCRIPT_ITER_LEN:UTS_FORWARD:UTS_PAUSE:UTS_RESET:UXMS_832_ITER_GAP:UXMS_832_ITER_LEN&LOGGER_DIRECTORY:PLOGGER_STATUS,uTimerScript=APPCAST_REQ:DB_CLIENTS:DB_UPTIME:EXITED_NORMALLY:UTS_FORWARD:UTS_PAUSE:UTS_RESET&APPCAST:NUM_VALUE:UTIMERSCRIPT_ITER_GAP:UTIMERSCRIPT_ITER_LEN:UTIMERSCRIPT_STATUS:UTS_STATUS,pPrimeFactor=APPCAST_REQ:NUM_VALUE&APPCAST:PPRIMEFACTOR_ITER_GAP:PPRIMEFACTOR_ITER_LEN:PPRIMEFACTOR_STATUS:PRIME_RESULT 
+7.283           UXMS_832_ITER_GAP    uXMS_832        1.00488      
+7.283           UXMS_832_ITER_LEN    uXMS_832        0.00031      
+7.294           UTIMERSCRIPT_ITER_GAP uTimerScript    1.00735      
+7.294           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00022      
+7.376           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00863      
+7.376           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00046      
+7.395           UTIMERSCRIPT_ITER_GAP uTimerScript    1.00543      
+7.395           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00045      
+7.482           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.05701      
+7.482           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00048      
+7.484           UXMS_832_ITER_GAP    uXMS_832        1.00449      
+7.484           UXMS_832_ITER_LEN    uXMS_832        0.00023      
+7.496           UTIMERSCRIPT_ITER_GAP uTimerScript    1.01015      
+7.496           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00058      
+7.583           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01048      
+7.583           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00045      
+7.598           UTIMERSCRIPT_ITER_GAP uTimerScript    1.02079      
+7.598           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00167      
+7.684           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00972      
+7.684           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00049      
+7.685           UXMS_832_ITER_GAP    uXMS_832        1.00389      
+7.685           UXMS_832_ITER_LEN    uXMS_832        0.00015      
+7.701           UTIMERSCRIPT_ITER_GAP uTimerScript    1.03210      
+7.701           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00050      
+7.785           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01181      
+7.785           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00046      
+7.802           UTIMERSCRIPT_ITER_GAP uTimerScript    1.00897      
+7.802           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00071      
+7.889           UXMS_832_ITER_GAP    uXMS_832        1.02036      
+7.889           UXMS_832_ITER_LEN    uXMS_832        0.00152      
+7.891           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.05922      
+7.891           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00045      
+7.906           UTIMERSCRIPT_ITER_GAP uTimerScript    1.03893      
+7.906           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00213      
+7.994           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.02964      
+7.994           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00056      
+8.007           UTIMERSCRIPT_ITER_GAP uTimerScript    1.01605      
+8.007           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00056      
+8.092           UXMS_832_ITER_GAP    uXMS_832        1.01275      
+8.092           UXMS_832_ITER_LEN    uXMS_832        0.00033      
+8.095           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01449      
+8.095           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00194      
+8.109           UTIMERSCRIPT_ITER_GAP uTimerScript    1.01955      
+8.109           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00062      
+8.198           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.02412      
+8.198           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00138      
+8.213           UTIMERSCRIPT_ITER_GAP uTimerScript    1.03300      
+8.213           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00150      
+8.296           UXMS_832_ITER_GAP    uXMS_832        1.01974      
+8.296           UXMS_832_ITER_LEN    uXMS_832        0.00040      
+8.299           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01477      
+8.299           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00043      
+8.314           UTIMERSCRIPT_ITER_GAP uTimerScript    1.01467      
+8.314           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00057      
+8.402           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.02577      
+8.402           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00076      
+8.415           UTIMERSCRIPT_ITER_GAP uTimerScript    1.01070      
+8.415           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00056      
+8.498           UXMS_832_ITER_GAP    uXMS_832        1.01147      
+8.498           UXMS_832_ITER_LEN    uXMS_832        0.00024      
+8.505           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.03411      
+8.505           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00025      
+8.516           UTIMERSCRIPT_ITER_GAP uTimerScript    1.01033      
+8.516           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00100      
+8.606           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01073      
+8.606           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00050      
+8.616           UTIMERSCRIPT_ITER_GAP uTimerScript    1.00415      
+8.616           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00047      
+8.698           UXMS_832_ITER_GAP    uXMS_832        1.00199      
+8.698           UXMS_832_ITER_LEN    uXMS_832        0.00025      
+8.711           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.04624      
+8.711           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00040      
+8.730           UTIMERSCRIPT_ITER_GAP uTimerScript    1.13120      
+8.730           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00077      
+8.811           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00468      
+8.811           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00048      
+8.830           UTIMERSCRIPT_ITER_GAP uTimerScript    1.00624      
+8.830           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00047      
+8.899           UXMS_832_ITER_GAP    uXMS_832        1.00180      
+8.899           UXMS_832_ITER_LEN    uXMS_832        0.00028      
+8.911           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00209      
+8.911           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00046      
+8.931           UTIMERSCRIPT_ITER_GAP uTimerScript    1.00975      
+8.931           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00101      
+9.012           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00710      
+9.012           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00049      
+9.032           UTIMERSCRIPT_ITER_GAP uTimerScript    1.01254      
+9.032           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00064      
+9.105           UXMS_832_ITER_GAP    uXMS_832        1.03108      
+9.105           UXMS_832_ITER_LEN    uXMS_832        0.00090      
+9.116           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.03382      
+9.116           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00062      
+9.133           UTIMERSCRIPT_ITER_GAP uTimerScript    1.00440      
+9.133           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00065      
+9.216           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00646      
+9.216           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00049      
+9.234           UTIMERSCRIPT_ITER_GAP uTimerScript    1.00777      
+9.234           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00049      
+9.305           UXMS_832_ITER_GAP    uXMS_832        1.00190      
+9.305           UXMS_832_ITER_LEN    uXMS_832        0.00023      
+9.306           DB_TIME              MOOSDB_prime    1615424938.54791 
+9.306           DB_UPTIME            MOOSDB_prime    10.23233     
+9.306           DB_CLIENTS           MOOSDB_prime    uXMS_832,pLogger,uTimerScript,pPrimeFactor, 
+9.308           DB_VARSUMMARY        MOOSDB_prime    APPCAST              20:08:50.888         uXMS_832             0.5 Hz S  proc=uXMS_832!@#iter=1...
+APPCAST_REQ          18:59:59.000         (write pending)      0.0 Hz ~  
+DB_CLIENTS           20:08:58.547         MOOSDB_prime         0.5 Hz S  uXMS_832,pLogger,uTime...
+DB_EVENT             20:08:50.126         MOOSDB_prime         1.6 Hz S  connected=uXMS_832
+DB_QOS               20:08:56.523         MOOSDB_prime         0.4 Hz S  pLogger=4.68111:244.22...
+DB_RWSUMMARY         20:08:56.523         MOOSDB_prime         0.4 Hz S  uXMS_832=APPCAST_REQ:D...
+DB_TIME              20:08:58.547         MOOSDB_prime         0.5 Hz D  1615424938.5
+DB_UPTIME            20:08:58.547         MOOSDB_prime         0.5 Hz D  10.2
+DB_VARSUMMARY        20:08:56.523         MOOSDB_prime         0.4 Hz S  APPCAST              2...
+EXITED_NORMALLY      18:59:59.000         (write pending)      0.0 Hz ~  
+LOGGER_DIRECTORY     20:08:50.401         pLogger              0.0 Hz S  ./MOOSLog_10_3_2021___...
+LOGGER_RESTART       18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_DEBUG           18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_SYSTEM          18:59:59.000         (write pending)      0.0 Hz ~  
+NUM_VALUE            20:08:52.693         uTimerScript         3.6 Hz S  129263144299543
+PLOGGER_CMD          18:59:59.000         (write pending)      0.0 Hz ~  
+PLOGGER_STATUS       20:08:56.842         pLogger              0.4 Hz S  AppErrorFlag=false,Upt...
+PPRIMEFACTOR_ITER_GAP 20:08:58.458         pPrimeFactor         9.8 Hz D  1.0
+PPRIMEFACTOR_ITER_LEN 20:08:58.458         pPrimeFactor         9.8 Hz D  0.0
+PPRIMEFACTOR_STATUS  20:08:57.748         pPrimeFactor         0.5 Hz S  AppErrorFlag=false,Upt...
+PRIME_RESULT         20:08:52.808         pPrimeFactor         3.5 Hz S  original number:129263...
+UTIMERSCRIPT_ITER_GAP 20:08:58.476         uTimerScript         9.8 Hz D  1.0
+UTIMERSCRIPT_ITER_LEN 20:08:58.476         uTimerScript         9.8 Hz D  0.0
+UTIMERSCRIPT_STATUS  20:08:56.536         uTimerScript         0.4 Hz S  AppErrorFlag=false,Upt...
+UTS_FORWARD          18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_PAUSE            18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_RESET            18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_STATUS           20:08:57.771         uTimerScript         2.0 Hz S  name=unnamed, elapsed_...
+UXMS_832_ITER_GAP    20:08:58.547         uXMS_832             4.9 Hz D  1.0
+UXMS_832_ITER_LEN    20:08:58.547         uXMS_832             5.0 Hz D  0.0
+UXMS_832_STATUS      20:08:56.927         uXMS_832             0.4 Hz S  AppErrorFlag=false,Upt...
+ 
+9.308           DB_QOS               MOOSDB_prime    pLogger=9.56392:244.229:0.978947:53.8696,pPrimeFactor=0.636101:318.415:0.515223:67.71,uTimerScript=2.30289:42.6979:0.243902:12.0589,uXMS_832=3.46589:16.8018:0.332832:6.15654, 
+9.308           DB_RWSUMMARY         MOOSDB_prime    uXMS_832=APPCAST_REQ:DB_UPTIME:NUM_VALUE:PRIME_RESULT&APPCAST:UXMS_832_ITER_GAP:UXMS_832_ITER_LEN:UXMS_832_STATUS,pLogger=APPCAST:APPCAST_REQ:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:EXITED_NORMALLY:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:NUM_VALUE:PLOGGER_CMD:PPRIMEFACTOR_ITER_GAP:PPRIMEFACTOR_ITER_LEN:PRIME_RESULT:UTIMERSCRIPT_ITER_GAP:UTIMERSCRIPT_ITER_LEN:UTS_FORWARD:UTS_PAUSE:UTS_RESET:UXMS_832_ITER_GAP:UXMS_832_ITER_LEN&LOGGER_DIRECTORY:PLOGGER_STATUS,uTimerScript=APPCAST_REQ:DB_CLIENTS:DB_UPTIME:EXITED_NORMALLY:UTS_FORWARD:UTS_PAUSE:UTS_RESET&APPCAST:NUM_VALUE:UTIMERSCRIPT_ITER_GAP:UTIMERSCRIPT_ITER_LEN:UTIMERSCRIPT_STATUS:UTS_STATUS,pPrimeFactor=APPCAST_REQ:NUM_VALUE&APPCAST:PPRIMEFACTOR_ITER_GAP:PPRIMEFACTOR_ITER_LEN:PPRIMEFACTOR_STATUS:PRIME_RESULT 
+9.317           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01208      
+9.317           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00044      
+9.334           UTIMERSCRIPT_ITER_GAP uTimerScript    1.00772      
+9.334           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00029      
+9.418           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00374      
+9.418           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00053      
+9.436           UTIMERSCRIPT_ITER_GAP uTimerScript    1.01754      
+9.436           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00193      
+9.509           UXMS_832_ITER_GAP    uXMS_832        1.01769      
+9.509           UXMS_832_ITER_LEN    uXMS_832        0.00244      
+9.522           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.04177      
+9.522           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00337      
+9.541           UTIMERSCRIPT_ITER_GAP uTimerScript    1.04901      
+9.541           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00048      
+9.623           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01102      
+9.623           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00174      
+9.642           UTIMERSCRIPT_ITER_GAP uTimerScript    1.01261      
+9.642           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00054      
+9.711           UXMS_832_ITER_GAP    uXMS_832        1.01173      
+9.711           UXMS_832_ITER_LEN    uXMS_832        0.00013      
+9.735           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.11708      
+9.735           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00059      
+9.744           UTIMERSCRIPT_ITER_GAP uTimerScript    1.02165      
+9.745           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00043      
+9.844           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.09483      
+9.844           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00061      
+9.845           UTIMERSCRIPT_ITER_GAP uTimerScript    1.00577      
+9.845           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00077      
+9.925           UXMS_832_ITER_GAP    uXMS_832        1.06992      
+9.925           UXMS_832_ITER_LEN    uXMS_832        0.00032      
+9.954           PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.10212      
+9.955           PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00162      
+9.998           UTIMERSCRIPT_ITER_GAP uTimerScript    1.53208      
+9.998           UTIMERSCRIPT_ITER_LEN uTimerScript    0.00052      
+10.018          LOGGER_DIRECTORY     pLogger         ./MOOSLog_10_3_2021_____20_08_50 
+10.055          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00641      
+10.055          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00046      
+10.101          UTIMERSCRIPT_ITER_GAP uTimerScript    1.02277      
+10.101          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00045      
+10.134          UXMS_832_ITER_GAP    uXMS_832        1.04590      
+10.134          UXMS_832_ITER_LEN    uXMS_832        0.00051      
+10.161          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.04638      
+10.161          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.01657      
+10.201          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00411      
+10.201          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00048      
+10.261          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01040      
+10.261          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00044      
+10.301          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00280      
+10.301          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00048      
+10.338          UXMS_832_ITER_GAP    uXMS_832        1.01732      
+10.338          UXMS_832_ITER_LEN    uXMS_832        0.00061      
+10.362          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01209      
+10.362          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00057      
+10.413          UTIMERSCRIPT_ITER_GAP uTimerScript    1.11831      
+10.413          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00044      
+10.462          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00385      
+10.462          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00046      
+10.513          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00249      
+10.513          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00048      
+10.539          UXMS_832_ITER_GAP    uXMS_832        1.00673      
+10.539          UXMS_832_ITER_LEN    uXMS_832        0.00030      
+10.564          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01769      
+10.564          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00027      
+10.614          UTIMERSCRIPT_ITER_GAP uTimerScript    1.01079      
+10.614          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00046      
+10.664          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00347      
+10.664          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00055      
+10.715          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00869      
+10.715          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00074      
+10.742          UXMS_832_ITER_GAP    uXMS_832        1.01424      
+10.742          UXMS_832_ITER_LEN    uXMS_832        0.00036      
+10.768          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.03823      
+10.768          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00054      
+10.831          UTIMERSCRIPT_ITER_GAP uTimerScript    1.15769      
+10.831          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00043      
+10.873          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.04667      
+10.873          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00155      
+10.931          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00290      
+10.931          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00096      
+10.942          UXMS_832_ITER_GAP    uXMS_832        1.00242      
+10.942          UXMS_832_ITER_LEN    uXMS_832        0.00023      
+10.976          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.03104      
+10.976          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00047      
+11.032          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00536      
+11.032          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00046      
+11.079          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.03079      
+11.079          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00048      
+11.133          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00831      
+11.133          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00047      
+11.143          UXMS_832_ITER_GAP    uXMS_832        1.00253      
+11.143          UXMS_832_ITER_LEN    uXMS_832        0.00025      
+11.180          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00870      
+11.180          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00070      
+11.235          UTIMERSCRIPT_ITER_GAP uTimerScript    1.02493      
+11.236          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00067      
+11.281          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01041      
+11.281          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00055      
+11.337          UTIMERSCRIPT_ITER_GAP uTimerScript    1.02217      
+11.337          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00023      
+11.338          DB_TIME              MOOSDB_prime    1615424940.58028 
+11.338          DB_UPTIME            MOOSDB_prime    12.26470     
+11.338          DB_CLIENTS           MOOSDB_prime    uXMS_832,pLogger,uTimerScript,pPrimeFactor, 
+11.340          DB_VARSUMMARY        MOOSDB_prime    APPCAST              20:08:50.888         uXMS_832             0.5 Hz S  proc=uXMS_832!@#iter=1...
+APPCAST_REQ          18:59:59.000         (write pending)      0.0 Hz ~  
+DB_CLIENTS           20:09:00.580         MOOSDB_prime         0.5 Hz S  uXMS_832,pLogger,uTime...
+DB_EVENT             20:08:50.126         MOOSDB_prime         1.6 Hz S  connected=uXMS_832
+DB_QOS               20:08:58.550         MOOSDB_prime         0.5 Hz S  pLogger=9.56392:244.22...
+DB_RWSUMMARY         20:08:58.550         MOOSDB_prime         0.5 Hz S  uXMS_832=APPCAST_REQ:D...
+DB_TIME              20:09:00.580         MOOSDB_prime         0.5 Hz D  1615424940.6
+DB_UPTIME            20:09:00.580         MOOSDB_prime         0.5 Hz D  12.3
+DB_VARSUMMARY        20:08:58.550         MOOSDB_prime         0.5 Hz S  APPCAST              2...
+EXITED_NORMALLY      18:59:59.000         (write pending)      0.0 Hz ~  
+LOGGER_DIRECTORY     20:08:59.265         pLogger              0.1 Hz S  ./MOOSLog_10_3_2021___...
+LOGGER_RESTART       18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_DEBUG           18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_SYSTEM          18:59:59.000         (write pending)      0.0 Hz ~  
+NUM_VALUE            20:08:52.693         uTimerScript         3.6 Hz S  129263144299543
+PLOGGER_CMD          18:59:59.000         (write pending)      0.0 Hz ~  
+PLOGGER_STATUS       20:08:58.858         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PPRIMEFACTOR_ITER_GAP 20:09:00.523         pPrimeFactor         9.7 Hz D  1.0
+PPRIMEFACTOR_ITER_LEN 20:09:00.523         pPrimeFactor         9.7 Hz D  0.0
+PPRIMEFACTOR_STATUS  20:08:59.815         pPrimeFactor         0.5 Hz S  AppErrorFlag=false,Upt...
+PRIME_RESULT         20:08:52.808         pPrimeFactor         3.5 Hz S  original number:129263...
+UTIMERSCRIPT_ITER_GAP 20:09:00.580         uTimerScript         9.6 Hz D  1.0
+UTIMERSCRIPT_ITER_LEN 20:09:00.580         uTimerScript         9.6 Hz D  0.0
+UTIMERSCRIPT_STATUS  20:09:00.580         uTimerScript         0.5 Hz S  AppErrorFlag=false,Upt...
+UTS_FORWARD          18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_PAUSE            18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_RESET            18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_STATUS           20:08:57.771         uTimerScript         2.0 Hz S  name=unnamed, elapsed_...
+UXMS_832_ITER_GAP    20:09:00.385         uXMS_832             4.9 Hz D  1.0
+UXMS_832_ITER_LEN    20:09:00.385         uXMS_832             4.9 Hz D  0.0
+UXMS_832_STATUS      20:08:58.954         uXMS_832             0.5 Hz S  AppErrorFlag=false,Upt...
+ 
+11.340          DB_QOS               MOOSDB_prime    pLogger=4.55809:244.229:0.978947:52.8684,pPrimeFactor=4.30989:318.415:0.515223:68.4447,uTimerScript=0.331163:42.6979:0.243902:11.6646,uXMS_832=2.74992:16.8018:0.332832:6.01335, 
+11.340          DB_RWSUMMARY         MOOSDB_prime    uXMS_832=APPCAST_REQ:DB_UPTIME:NUM_VALUE:PRIME_RESULT&APPCAST:UXMS_832_ITER_GAP:UXMS_832_ITER_LEN:UXMS_832_STATUS,pLogger=APPCAST:APPCAST_REQ:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:EXITED_NORMALLY:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:NUM_VALUE:PLOGGER_CMD:PPRIMEFACTOR_ITER_GAP:PPRIMEFACTOR_ITER_LEN:PRIME_RESULT:UTIMERSCRIPT_ITER_GAP:UTIMERSCRIPT_ITER_LEN:UTS_FORWARD:UTS_PAUSE:UTS_RESET:UXMS_832_ITER_GAP:UXMS_832_ITER_LEN&LOGGER_DIRECTORY:PLOGGER_STATUS,uTimerScript=APPCAST_REQ:DB_CLIENTS:DB_UPTIME:EXITED_NORMALLY:UTS_FORWARD:UTS_PAUSE:UTS_RESET&APPCAST:NUM_VALUE:UTIMERSCRIPT_ITER_GAP:UTIMERSCRIPT_ITER_LEN:UTIMERSCRIPT_STATUS:UTS_STATUS,pPrimeFactor=APPCAST_REQ:NUM_VALUE&APPCAST:PPRIMEFACTOR_ITER_GAP:PPRIMEFACTOR_ITER_LEN:PPRIMEFACTOR_STATUS:PRIME_RESULT 
+11.344          UXMS_832_ITER_GAP    uXMS_832        1.00397      
+11.344          UXMS_832_ITER_LEN    uXMS_832        0.00022      
+11.381          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00175      
+11.381          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00046      
+11.441          UTIMERSCRIPT_ITER_GAP uTimerScript    1.03853      
+11.441          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00099      
+11.482          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00788      
+11.482          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00060      
+11.544          UTIMERSCRIPT_ITER_GAP uTimerScript    1.02414      
+11.544          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00047      
+11.546          UXMS_832_ITER_GAP    uXMS_832        1.01042      
+11.546          UXMS_832_ITER_LEN    uXMS_832        0.00024      
+11.584          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.02216      
+11.584          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00075      
+11.645          UTIMERSCRIPT_ITER_GAP uTimerScript    1.01646      
+11.645          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00050      
+11.685          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01246      
+11.685          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00047      
+11.746          UXMS_832_ITER_GAP    uXMS_832        1.00178      
+11.746          UXMS_832_ITER_LEN    uXMS_832        0.00013      
+11.746          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00888      
+11.746          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00041      
+11.788          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.02384      
+11.788          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00148      
+11.848          UTIMERSCRIPT_ITER_GAP uTimerScript    1.01927      
+11.848          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00047      
+11.889          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00805      
+11.889          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00044      
+11.948          UXMS_832_ITER_GAP    uXMS_832        1.00947      
+11.948          UXMS_832_ITER_LEN    uXMS_832        0.00044      
+11.949          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00483      
+11.949          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00038      
+11.995          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.06167      
+11.995          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00082      
+12.049          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00558      
+12.049          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00049      
+12.096          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00735      
+12.096          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00045      
+12.150          UXMS_832_ITER_GAP    uXMS_832        1.00997      
+12.150          UXMS_832_ITER_LEN    uXMS_832        0.00024      
+12.150          UTIMERSCRIPT_ITER_GAP uTimerScript    1.01070      
+12.150          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00042      
+12.197          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01009      
+12.197          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00041      
+12.251          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00864      
+12.251          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00094      
+12.297          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00740      
+12.297          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00045      
+12.350          UXMS_832_ITER_GAP    uXMS_832        1.00140      
+12.350          UXMS_832_ITER_LEN    uXMS_832        0.00023      
+12.353          UTIMERSCRIPT_ITER_GAP uTimerScript    1.01491      
+12.353          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00046      
+12.400          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.02339      
+12.400          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00062      
+12.454          UTIMERSCRIPT_ITER_GAP uTimerScript    1.01416      
+12.454          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00062      
+12.501          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01012      
+12.501          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00071      
+12.551          UXMS_832_ITER_GAP    uXMS_832        1.00304      
+12.551          UXMS_832_ITER_LEN    uXMS_832        0.00022      
+12.558          UTIMERSCRIPT_ITER_GAP uTimerScript    1.03889      
+12.558          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00056      
+12.602          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01373      
+12.602          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00023      
+12.659          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00909      
+12.659          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00044      
+12.704          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.02382      
+12.704          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00069      
+12.753          UXMS_832_ITER_GAP    uXMS_832        1.00947      
+12.753          UXMS_832_ITER_LEN    uXMS_832        0.00039      
+12.761          UTIMERSCRIPT_ITER_GAP uTimerScript    1.02336      
+12.761          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00043      
+12.810          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.05776      
+12.810          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00051      
+12.862          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00637      
+12.862          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00049      
+12.911          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00617      
+12.911          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00046      
+12.958          UXMS_832_ITER_GAP    uXMS_832        1.02687      
+12.958          UXMS_832_ITER_LEN    uXMS_832        0.00039      
+12.963          UTIMERSCRIPT_ITER_GAP uTimerScript    1.01156      
+12.963          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00092      
+13.012          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01025      
+13.012          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00046      
+13.064          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00848      
+13.064          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00050      
+13.113          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01051      
+13.113          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00052      
+13.160          UXMS_832_ITER_GAP    uXMS_832        1.00989      
+13.160          UXMS_832_ITER_LEN    uXMS_832        0.00026      
+13.173          UTIMERSCRIPT_ITER_GAP uTimerScript    1.09405      
+13.173          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00236      
+13.215          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01724      
+13.215          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00088      
+13.274          UTIMERSCRIPT_ITER_GAP uTimerScript    1.01003      
+13.274          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00047      
+13.317          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01985      
+13.318          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00995      
+13.361          UXMS_832_ITER_GAP    uXMS_832        1.00404      
+13.361          UXMS_832_ITER_LEN    uXMS_832        0.00023      
+13.361          DB_TIME              MOOSDB_prime    1615424942.60371 
+13.361          DB_UPTIME            MOOSDB_prime    14.28813     
+13.361          DB_CLIENTS           MOOSDB_prime    uXMS_832,pLogger,uTimerScript,pPrimeFactor, 
+13.363          DB_VARSUMMARY        MOOSDB_prime    APPCAST              20:08:50.888         uXMS_832             0.5 Hz S  proc=uXMS_832!@#iter=1...
+APPCAST_REQ          18:59:59.000         (write pending)      0.0 Hz ~  
+DB_CLIENTS           20:09:02.603         MOOSDB_prime         0.5 Hz S  uXMS_832,pLogger,uTime...
+DB_EVENT             20:08:50.126         MOOSDB_prime         1.6 Hz S  connected=uXMS_832
+DB_QOS               20:09:00.582         MOOSDB_prime         0.5 Hz S  pLogger=4.55809:244.22...
+DB_RWSUMMARY         20:09:00.582         MOOSDB_prime         0.5 Hz S  uXMS_832=APPCAST_REQ:D...
+DB_TIME              20:09:02.603         MOOSDB_prime         0.5 Hz D  1615424942.6
+DB_UPTIME            20:09:02.603         MOOSDB_prime         0.5 Hz D  14.3
+DB_VARSUMMARY        20:09:00.582         MOOSDB_prime         0.5 Hz S  APPCAST              2...
+EXITED_NORMALLY      18:59:59.000         (write pending)      0.0 Hz ~  
+LOGGER_DIRECTORY     20:08:59.265         pLogger              0.1 Hz S  ./MOOSLog_10_3_2021___...
+LOGGER_RESTART       18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_DEBUG           18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_SYSTEM          18:59:59.000         (write pending)      0.0 Hz ~  
+NUM_VALUE            20:08:52.693         uTimerScript         3.6 Hz S  129263144299543
+PLOGGER_CMD          18:59:59.000         (write pending)      0.0 Hz ~  
+PLOGGER_STATUS       20:09:00.877         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PPRIMEFACTOR_ITER_GAP 20:09:02.561         pPrimeFactor         9.8 Hz D  1.0
+PPRIMEFACTOR_ITER_LEN 20:09:02.561         pPrimeFactor         9.8 Hz D  0.0
+PPRIMEFACTOR_STATUS  20:09:01.847         pPrimeFactor         0.5 Hz S  AppErrorFlag=false,Upt...
+PRIME_RESULT         20:08:52.808         pPrimeFactor         3.5 Hz S  original number:129263...
+UTIMERSCRIPT_ITER_GAP 20:09:02.518         uTimerScript         9.7 Hz D  1.0
+UTIMERSCRIPT_ITER_LEN 20:09:02.518         uTimerScript         9.7 Hz D  0.0
+UTIMERSCRIPT_STATUS  20:09:00.580         uTimerScript         0.5 Hz S  AppErrorFlag=false,Upt...
+UTS_FORWARD          18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_PAUSE            18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_RESET            18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_STATUS           20:08:57.771         uTimerScript         2.0 Hz S  name=unnamed, elapsed_...
+UXMS_832_ITER_GAP    20:09:02.603         uXMS_832             5.0 Hz D  1.0
+UXMS_832_ITER_LEN    20:09:02.603         uXMS_832             4.9 Hz D  0.0
+UXMS_832_STATUS      20:09:00.990         uXMS_832             0.5 Hz S  AppErrorFlag=false,Upt...
+ 
+13.363          DB_QOS               MOOSDB_prime    pLogger=0.461817:244.229:0.461817:52.0492,pPrimeFactor=0.347853:318.415:0.347853:67.6523,uTimerScript=0.442982:42.6979:0.243902:11.6869,uXMS_832=0.302076:16.8018:0.29397:5.52378, 
+13.364          DB_RWSUMMARY         MOOSDB_prime    uXMS_832=APPCAST_REQ:DB_UPTIME:NUM_VALUE:PRIME_RESULT&APPCAST:UXMS_832_ITER_GAP:UXMS_832_ITER_LEN:UXMS_832_STATUS,pLogger=APPCAST:APPCAST_REQ:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:EXITED_NORMALLY:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:NUM_VALUE:PLOGGER_CMD:PPRIMEFACTOR_ITER_GAP:PPRIMEFACTOR_ITER_LEN:PRIME_RESULT:UTIMERSCRIPT_ITER_GAP:UTIMERSCRIPT_ITER_LEN:UTS_FORWARD:UTS_PAUSE:UTS_RESET:UXMS_832_ITER_GAP:UXMS_832_ITER_LEN&LOGGER_DIRECTORY:PLOGGER_STATUS,uTimerScript=APPCAST_REQ:DB_CLIENTS:DB_UPTIME:EXITED_NORMALLY:UTS_FORWARD:UTS_PAUSE:UTS_RESET&APPCAST:NUM_VALUE:UTIMERSCRIPT_ITER_GAP:UTIMERSCRIPT_ITER_LEN:UTIMERSCRIPT_STATUS:UTS_STATUS,pPrimeFactor=APPCAST_REQ:NUM_VALUE&APPCAST:PPRIMEFACTOR_ITER_GAP:PPRIMEFACTOR_ITER_LEN:PPRIMEFACTOR_STATUS:PRIME_RESULT 
+13.376          UTIMERSCRIPT_ITER_GAP uTimerScript    1.01349      
+13.376          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00023      
+13.417          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00732      
+13.417          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00054      
+13.476          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00511      
+13.477          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00426      
+13.518          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00604      
+13.518          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00045      
+13.563          UXMS_832_ITER_GAP    uXMS_832        1.00781      
+13.563          UXMS_832_ITER_LEN    uXMS_832        0.00038      
+13.578          UTIMERSCRIPT_ITER_GAP uTimerScript    1.02050      
+13.578          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00122      
+13.622          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.03965      
+13.622          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00114      
+13.679          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00704      
+13.679          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00095      
+13.724          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.02416      
+13.724          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00046      
+13.765          UXMS_832_ITER_GAP    uXMS_832        1.01042      
+13.765          UXMS_832_ITER_LEN    uXMS_832        0.00013      
+13.783          UTIMERSCRIPT_ITER_GAP uTimerScript    1.03726      
+13.783          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00161      
+13.825          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00731      
+13.825          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00047      
+13.883          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00949      
+13.884          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00047      
+13.928          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.02621      
+13.928          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00067      
+13.965          UXMS_832_ITER_GAP    uXMS_832        1.00416      
+13.965          UXMS_832_ITER_LEN    uXMS_832        0.00025      
+13.984          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00615      
+13.984          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00060      
+14.030          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.02250      
+14.030          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00426      
+14.086          UTIMERSCRIPT_ITER_GAP uTimerScript    1.02026      
+14.086          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00049      
+14.131          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00659      
+14.131          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00067      
+14.167          UXMS_832_ITER_GAP    uXMS_832        1.00650      
+14.167          UXMS_832_ITER_LEN    uXMS_832        0.00023      
+14.188          UTIMERSCRIPT_ITER_GAP uTimerScript    1.01412      
+14.188          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00046      
+14.232          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01751      
+14.232          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00042      
+14.288          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00682      
+14.288          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00055      
+14.333          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00480      
+14.333          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00044      
+14.370          UXMS_832_ITER_GAP    uXMS_832        1.01509      
+14.370          UXMS_832_ITER_LEN    uXMS_832        0.00026      
+14.389          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00743      
+14.389          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00135      
+14.434          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01546      
+14.434          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00046      
+14.490          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00829      
+14.490          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00045      
+14.536          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01344      
+14.536          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00044      
+14.571          UXMS_832_ITER_GAP    uXMS_832        1.00483      
+14.571          UXMS_832_ITER_LEN    uXMS_832        0.00025      
+14.591          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00927      
+14.591          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00045      
+14.639          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.03691      
+14.639          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00020      
+14.691          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00663      
+14.691          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00065      
+14.740          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01120      
+14.741          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00046      
+14.773          UXMS_832_ITER_GAP    uXMS_832        1.01319      
+14.773          UXMS_832_ITER_LEN    uXMS_832        0.00024      
+14.793          UTIMERSCRIPT_ITER_GAP uTimerScript    1.01333      
+14.793          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00279      
+14.842          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01020      
+14.842          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00075      
+14.894          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00910      
+14.894          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00045      
+14.942          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00948      
+14.942          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00045      
+14.975          UXMS_832_ITER_GAP    uXMS_832        1.01023      
+14.976          UXMS_832_ITER_LEN    uXMS_832        0.00128      
+14.995          UTIMERSCRIPT_ITER_GAP uTimerScript    1.01134      
+14.995          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00048      
+15.043          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00154      
+15.043          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00046      
+15.098          UTIMERSCRIPT_ITER_GAP uTimerScript    1.02767      
+15.098          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00046      
+15.144          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00966      
+15.144          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00046      
+15.176          UXMS_832_ITER_GAP    uXMS_832        1.00352      
+15.176          UXMS_832_ITER_LEN    uXMS_832        0.00037      
+15.203          UTIMERSCRIPT_ITER_GAP uTimerScript    1.04996      
+15.203          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00048      
+15.249          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.05067      
+15.249          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00045      
+15.304          UTIMERSCRIPT_ITER_GAP uTimerScript    1.01398      
+15.304          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00049      
+15.351          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01892      
+15.351          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00047      
+15.378          UXMS_832_ITER_GAP    uXMS_832        1.00731      
+15.378          UXMS_832_ITER_LEN    uXMS_832        0.00021      
+15.379          DB_TIME              MOOSDB_prime    1615424944.62133 
+15.379          DB_UPTIME            MOOSDB_prime    16.30575     
+15.379          DB_CLIENTS           MOOSDB_prime    uXMS_832,pLogger,uTimerScript,pPrimeFactor, 
+15.381          DB_VARSUMMARY        MOOSDB_prime    APPCAST              20:08:50.888         uXMS_832             0.5 Hz S  proc=uXMS_832!@#iter=1...
+APPCAST_REQ          18:59:59.000         (write pending)      0.0 Hz ~  
+DB_CLIENTS           20:09:04.621         MOOSDB_prime         0.5 Hz S  uXMS_832,pLogger,uTime...
+DB_EVENT             20:08:50.126         MOOSDB_prime         1.6 Hz S  connected=uXMS_832
+DB_QOS               20:09:02.605         MOOSDB_prime         0.5 Hz S  pLogger=0.461817:244.2...
+DB_RWSUMMARY         20:09:02.605         MOOSDB_prime         0.5 Hz S  uXMS_832=APPCAST_REQ:D...
+DB_TIME              20:09:04.621         MOOSDB_prime         0.5 Hz D  1615424944.6
+DB_UPTIME            20:09:04.621         MOOSDB_prime         0.5 Hz D  16.3
+DB_VARSUMMARY        20:09:02.605         MOOSDB_prime         0.5 Hz S  APPCAST              2...
+EXITED_NORMALLY      18:59:59.000         (write pending)      0.0 Hz ~  
+LOGGER_DIRECTORY     20:08:59.265         pLogger              0.1 Hz S  ./MOOSLog_10_3_2021___...
+LOGGER_RESTART       18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_DEBUG           18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_SYSTEM          18:59:59.000         (write pending)      0.0 Hz ~  
+NUM_VALUE            20:08:52.693         uTimerScript         3.6 Hz S  129263144299543
+PLOGGER_CMD          18:59:59.000         (write pending)      0.0 Hz ~  
+PLOGGER_STATUS       20:09:02.895         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PPRIMEFACTOR_ITER_GAP 20:09:04.597         pPrimeFactor         9.8 Hz D  1.0
+PPRIMEFACTOR_ITER_LEN 20:09:04.597         pPrimeFactor         9.8 Hz D  0.0
+PPRIMEFACTOR_STATUS  20:09:03.884         pPrimeFactor         0.5 Hz S  AppErrorFlag=false,Upt...
+PRIME_RESULT         20:08:52.808         pPrimeFactor         3.5 Hz S  original number:129263...
+UTIMERSCRIPT_ITER_GAP 20:09:04.548         uTimerScript         9.8 Hz D  1.0
+UTIMERSCRIPT_ITER_LEN 20:09:04.548         uTimerScript         9.8 Hz D  0.0
+UTIMERSCRIPT_STATUS  20:09:02.618         uTimerScript         0.5 Hz S  AppErrorFlag=false,Upt...
+UTS_FORWARD          18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_PAUSE            18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_RESET            18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_STATUS           20:09:02.822         uTimerScript         1.1 Hz S  name=unnamed, elapsed_...
+UXMS_832_ITER_GAP    20:09:04.621         uXMS_832             5.0 Hz D  1.0
+UXMS_832_ITER_LEN    20:09:04.621         uXMS_832             4.9 Hz D  0.0
+UXMS_832_STATUS      20:09:03.014         uXMS_832             0.5 Hz S  AppErrorFlag=false,Upt...
+ 
+15.381          DB_QOS               MOOSDB_prime    pLogger=0.784874:244.229:0.461817:52.1138,pPrimeFactor=0.28801:318.415:0.28801:67.6404,uTimerScript=9.69696:42.6979:0.243902:13.5377,uXMS_832=1.15895:16.8018:0.29397:5.69515, 
+15.381          DB_RWSUMMARY         MOOSDB_prime    uXMS_832=APPCAST_REQ:DB_UPTIME:NUM_VALUE:PRIME_RESULT&APPCAST:UXMS_832_ITER_GAP:UXMS_832_ITER_LEN:UXMS_832_STATUS,pLogger=APPCAST:APPCAST_REQ:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:EXITED_NORMALLY:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:NUM_VALUE:PLOGGER_CMD:PPRIMEFACTOR_ITER_GAP:PPRIMEFACTOR_ITER_LEN:PRIME_RESULT:UTIMERSCRIPT_ITER_GAP:UTIMERSCRIPT_ITER_LEN:UTS_FORWARD:UTS_PAUSE:UTS_RESET:UXMS_832_ITER_GAP:UXMS_832_ITER_LEN&LOGGER_DIRECTORY:PLOGGER_STATUS,uTimerScript=APPCAST_REQ:DB_CLIENTS:DB_UPTIME:EXITED_NORMALLY:UTS_FORWARD:UTS_PAUSE:UTS_RESET&APPCAST:NUM_VALUE:UTIMERSCRIPT_ITER_GAP:UTIMERSCRIPT_ITER_LEN:UTIMERSCRIPT_STATUS:UTS_STATUS,pPrimeFactor=APPCAST_REQ:NUM_VALUE&APPCAST:PPRIMEFACTOR_ITER_GAP:PPRIMEFACTOR_ITER_LEN:PPRIMEFACTOR_STATUS:PRIME_RESULT 
+15.466          UTIMERSCRIPT_ITER_GAP uTimerScript    1.61697      
+15.466          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00022      
+15.484          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.33548      
+15.484          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00044      
+15.577          UTIMERSCRIPT_ITER_GAP uTimerScript    1.11354      
+15.577          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00176      
+15.600          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.16208      
+15.600          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00064      
+15.683          UTIMERSCRIPT_ITER_GAP uTimerScript    1.06250      
+15.683          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00063      
+15.696          DB_EVENT             MOOSDB_prime    disconnected=uXMS_832 
+16.443          PPRIMEFACTOR_ITER_GAP pPrimeFactor    8.42798      
+16.443          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00059      
+16.546          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.02475      
+16.546          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00050      
+16.572          UTIMERSCRIPT_ITER_GAP uTimerScript    8.88766      
+16.572          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00047      
+16.647          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01098      
+16.647          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00023      
+16.673          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00667      
+16.673          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00043      
+16.748          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01622      
+16.748          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00046      
+16.773          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00769      
+16.773          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00068      
+16.850          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01694      
+16.850          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00265      
+16.874          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00702      
+16.874          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00078      
+16.950          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00401      
+16.950          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00042      
+16.978          UTIMERSCRIPT_ITER_GAP uTimerScript    1.04157      
+16.978          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00064      
+17.052          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01643      
+17.052          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00051      
+17.079          UTIMERSCRIPT_ITER_GAP uTimerScript    1.01139      
+17.079          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00042      
+17.156          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.03810      
+17.156          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00046      
+17.187          UTIMERSCRIPT_ITER_GAP uTimerScript    1.07152      
+17.187          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00058      
+17.258          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.02460      
+17.259          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00259      
+17.291          UTIMERSCRIPT_ITER_GAP uTimerScript    1.04000      
+17.291          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00063      
+17.360          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01802      
+17.360          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00075      
+17.392          UTIMERSCRIPT_ITER_GAP uTimerScript    1.01590      
+17.392          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00046      
+17.396          DB_TIME              MOOSDB_prime    1615424946.63803 
+17.396          DB_UPTIME            MOOSDB_prime    18.32245     
+17.396          DB_CLIENTS           MOOSDB_prime    pLogger,uTimerScript,pPrimeFactor, 
+17.398          DB_VARSUMMARY        MOOSDB_prime    APPCAST              20:08:50.888         uXMS_832             0.5 Hz S  proc=uXMS_832!@#iter=1...
+APPCAST_REQ          18:59:59.000         (write pending)      0.0 Hz ~  
+DB_CLIENTS           20:09:06.638         MOOSDB_prime         0.5 Hz S  pLogger,uTimerScript,p...
+DB_EVENT             20:09:04.937         MOOSDB_prime         0.0 Hz S  disconnected=uXMS_832
+DB_QOS               20:09:04.623         MOOSDB_prime         0.5 Hz S  pLogger=0.784874:244.2...
+DB_RWSUMMARY         20:09:04.623         MOOSDB_prime         0.5 Hz S  uXMS_832=APPCAST_REQ:D...
+DB_TIME              20:09:06.638         MOOSDB_prime         0.5 Hz D  1615424946.6
+DB_UPTIME            20:09:06.638         MOOSDB_prime         0.5 Hz D  18.3
+DB_VARSUMMARY        20:09:04.623         MOOSDB_prime         0.5 Hz S  APPCAST              2...
+EXITED_NORMALLY      18:59:59.000         (write pending)      0.0 Hz ~  
+LOGGER_DIRECTORY     20:08:59.265         pLogger              0.1 Hz S  ./MOOSLog_10_3_2021___...
+LOGGER_RESTART       18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_DEBUG           18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_SYSTEM          18:59:59.000         (write pending)      0.0 Hz ~  
+NUM_VALUE            20:08:52.693         uTimerScript         3.6 Hz S  129263144299543
+PLOGGER_CMD          18:59:59.000         (write pending)      0.0 Hz ~  
+PLOGGER_STATUS       20:09:05.783         pLogger              0.4 Hz S  AppErrorFlag=false,Upt...
+PPRIMEFACTOR_ITER_GAP 20:09:06.603         pPrimeFactor         10.3Hz D  1.0
+PPRIMEFACTOR_ITER_LEN 20:09:06.603         pPrimeFactor         10.3Hz D  0.0
+PPRIMEFACTOR_STATUS  20:09:05.891         pPrimeFactor         0.5 Hz S  AppErrorFlag=false,Upt...
+PRIME_RESULT         20:08:52.808         pPrimeFactor         3.5 Hz S  original number:129263...
+UTIMERSCRIPT_ITER_GAP 20:09:06.638         uTimerScript         9.5 Hz D  1.0
+UTIMERSCRIPT_ITER_LEN 20:09:06.638         uTimerScript         9.5 Hz D  0.0
+UTIMERSCRIPT_STATUS  20:09:05.742         uTimerScript         0.4 Hz S  AppErrorFlag=false,Upt...
+UTS_FORWARD          18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_PAUSE            18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_RESET            18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_STATUS           20:09:02.822         uTimerScript         1.1 Hz S  name=unnamed, elapsed_...
+UXMS_832_ITER_GAP    20:09:04.621         uXMS_832             5.0 Hz D  1.0
+UXMS_832_ITER_LEN    20:09:04.621         uXMS_832             4.9 Hz D  0.0
+UXMS_832_STATUS      20:09:03.014         uXMS_832             0.5 Hz S  AppErrorFlag=false,Upt...
+ 
+17.398          DB_QOS               MOOSDB_prime    pLogger=0.352859:827.87:0.352859:52.0274,pPrimeFactor=0.62108:591.74:0.28801:67.707,uTimerScript=1.369:844.69:0.243902:11.8721, 
+17.398          DB_RWSUMMARY         MOOSDB_prime    pLogger=APPCAST:APPCAST_REQ:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:EXITED_NORMALLY:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:NUM_VALUE:PLOGGER_CMD:PPRIMEFACTOR_ITER_GAP:PPRIMEFACTOR_ITER_LEN:PRIME_RESULT:UTIMERSCRIPT_ITER_GAP:UTIMERSCRIPT_ITER_LEN:UTS_FORWARD:UTS_PAUSE:UTS_RESET:UXMS_832_ITER_GAP:UXMS_832_ITER_LEN&LOGGER_DIRECTORY:PLOGGER_STATUS,uTimerScript=APPCAST_REQ:DB_CLIENTS:DB_UPTIME:EXITED_NORMALLY:UTS_FORWARD:UTS_PAUSE:UTS_RESET&APPCAST:NUM_VALUE:UTIMERSCRIPT_ITER_GAP:UTIMERSCRIPT_ITER_LEN:UTIMERSCRIPT_STATUS:UTS_STATUS,pPrimeFactor=APPCAST_REQ:NUM_VALUE&APPCAST:PPRIMEFACTOR_ITER_GAP:PPRIMEFACTOR_ITER_LEN:PPRIMEFACTOR_STATUS:PRIME_RESULT 
+17.460          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00359      
+17.460          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00045      
+17.494          UTIMERSCRIPT_ITER_GAP uTimerScript    1.01821      
+17.494          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00027      
+17.562          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01546      
+17.562          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00043      
+17.595          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00805      
+17.595          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00044      
+17.663          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01102      
+17.663          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00052      
+17.696          UTIMERSCRIPT_ITER_GAP uTimerScript    1.01039      
+17.696          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00045      
+17.764          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00796      
+17.764          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00045      
+17.801          UTIMERSCRIPT_ITER_GAP uTimerScript    1.05064      
+17.806          UTIMERSCRIPT_ITER_LEN uTimerScript    0.04817      
+17.865          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01173      
+17.865          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00070      
+17.902          UTIMERSCRIPT_ITER_GAP uTimerScript    1.01143      
+17.902          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00049      
+17.967          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01876      
+17.967          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00075      
+18.004          UTIMERSCRIPT_ITER_GAP uTimerScript    1.01615      
+18.004          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00151      
+18.072          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.04956      
+18.072          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00042      
+18.105          UTIMERSCRIPT_ITER_GAP uTimerScript    1.01068      
+18.105          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00047      
+18.212          UTIMERSCRIPT_ITER_GAP uTimerScript    1.07415      
+18.212          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00045      
+18.395          PPRIMEFACTOR_ITER_GAP pPrimeFactor    3.23281      
+18.395          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00042      
+18.474          UTIMERSCRIPT_ITER_GAP uTimerScript    2.62006      
+18.474          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00042      
+18.498          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.03108      
+18.498          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00052      
+18.575          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00586      
+18.575          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00071      
+18.601          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.02609      
+18.601          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00203      
+18.676          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00938      
+18.676          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00080      
+18.706          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.05449      
+18.706          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00021      
+18.797          UTIMERSCRIPT_ITER_GAP uTimerScript    1.21095      
+18.797          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00053      
+18.811          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.04744      
+18.811          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00049      
+18.898          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00903      
+18.898          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00051      
+18.912          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01116      
+18.912          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00046      
+18.999          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00946      
+18.999          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00053      
+19.013          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00680      
+19.013          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00049      
+19.099          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00688      
+19.099          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00061      
+19.114          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01282      
+19.114          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00042      
+19.213          UTIMERSCRIPT_ITER_GAP uTimerScript    1.13370      
+19.213          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00069      
+19.216          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01645      
+19.216          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00044      
+19.313          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00724      
+19.313          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00046      
+19.321          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.04991      
+19.321          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00046      
+19.415          UTIMERSCRIPT_ITER_GAP uTimerScript    1.01438      
+19.415          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00055      
+19.416          DB_TIME              MOOSDB_prime    1615424948.65876 
+19.416          DB_UPTIME            MOOSDB_prime    20.34319     
+19.417          DB_CLIENTS           MOOSDB_prime    pLogger,uTimerScript,pPrimeFactor, 
+19.421          DB_VARSUMMARY        MOOSDB_prime    APPCAST              20:08:50.888         uXMS_832             0.5 Hz S  proc=uXMS_832!@#iter=1...
+APPCAST_REQ          18:59:59.000         (write pending)      0.0 Hz ~  
+DB_CLIENTS           20:09:08.659         MOOSDB_prime         0.5 Hz S  pLogger,uTimerScript,p...
+DB_EVENT             20:09:04.937         MOOSDB_prime         0.0 Hz S  disconnected=uXMS_832
+DB_QOS               20:09:06.639         MOOSDB_prime         0.5 Hz S  pLogger=0.352859:827.8...
+DB_RWSUMMARY         20:09:06.639         MOOSDB_prime         0.5 Hz S  pLogger=APPCAST:APPCAS...
+DB_TIME              20:09:08.658         MOOSDB_prime         0.5 Hz D  1615424948.7
+DB_UPTIME            20:09:08.658         MOOSDB_prime         0.5 Hz D  20.3
+DB_VARSUMMARY        20:09:06.639         MOOSDB_prime         0.5 Hz S  APPCAST              2...
+EXITED_NORMALLY      18:59:59.000         (write pending)      0.0 Hz ~  
+LOGGER_DIRECTORY     20:08:59.265         pLogger              0.1 Hz S  ./MOOSLog_10_3_2021___...
+LOGGER_RESTART       18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_DEBUG           18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_SYSTEM          18:59:59.000         (write pending)      0.0 Hz ~  
+NUM_VALUE            20:08:52.693         uTimerScript         3.6 Hz S  129263144299543
+PLOGGER_CMD          18:59:59.000         (write pending)      0.0 Hz ~  
+PLOGGER_STATUS       20:09:07.090         pLogger              0.6 Hz S  AppErrorFlag=false,Upt...
+PPRIMEFACTOR_ITER_GAP 20:09:08.568         pPrimeFactor         8.8 Hz D  1.0
+PPRIMEFACTOR_ITER_LEN 20:09:08.568         pPrimeFactor         8.8 Hz D  0.0
+PPRIMEFACTOR_STATUS  20:09:07.957         pPrimeFactor         0.5 Hz S  AppErrorFlag=false,Upt...
+PRIME_RESULT         20:08:52.808         pPrimeFactor         3.5 Hz S  original number:129263...
+UTIMERSCRIPT_ITER_GAP 20:09:08.658         uTimerScript         8.8 Hz D  1.0
+UTIMERSCRIPT_ITER_LEN 20:09:08.658         uTimerScript         8.8 Hz D  0.0
+UTIMERSCRIPT_STATUS  20:09:06.737         uTimerScript         0.7 Hz S  AppErrorFlag=false,Upt...
+UTS_FORWARD          18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_PAUSE            18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_RESET            18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_STATUS           20:09:07.921         uTimerScript         0.6 Hz S  name=unnamed, elapsed_...
+UXMS_832_ITER_GAP    20:09:04.621         uXMS_832             5.0 Hz D  1.0
+UXMS_832_ITER_LEN    20:09:04.621         uXMS_832             4.9 Hz D  0.0
+UXMS_832_STATUS      20:09:03.014         uXMS_832             0.5 Hz S  AppErrorFlag=false,Upt...
+ 
+19.421          DB_QOS               MOOSDB_prime    pLogger=0.33617:827.87:0.33617:52.024,pPrimeFactor=0.538111:591.74:0.28801:67.6904,uTimerScript=0.412941:844.69:0.243902:11.6809, 
+19.421          DB_RWSUMMARY         MOOSDB_prime    pLogger=APPCAST:APPCAST_REQ:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:EXITED_NORMALLY:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:NUM_VALUE:PLOGGER_CMD:PPRIMEFACTOR_ITER_GAP:PPRIMEFACTOR_ITER_LEN:PRIME_RESULT:UTIMERSCRIPT_ITER_GAP:UTIMERSCRIPT_ITER_LEN:UTS_FORWARD:UTS_PAUSE:UTS_RESET:UXMS_832_ITER_GAP:UXMS_832_ITER_LEN&LOGGER_DIRECTORY:PLOGGER_STATUS,uTimerScript=APPCAST_REQ:DB_CLIENTS:DB_UPTIME:EXITED_NORMALLY:UTS_FORWARD:UTS_PAUSE:UTS_RESET&APPCAST:NUM_VALUE:UTIMERSCRIPT_ITER_GAP:UTIMERSCRIPT_ITER_LEN:UTIMERSCRIPT_STATUS:UTS_STATUS,pPrimeFactor=APPCAST_REQ:NUM_VALUE&APPCAST:PPRIMEFACTOR_ITER_GAP:PPRIMEFACTOR_ITER_LEN:PPRIMEFACTOR_STATUS:PRIME_RESULT 
+19.422          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00736      
+19.422          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00039      
+19.521          UTIMERSCRIPT_ITER_GAP uTimerScript    1.06336      
+19.521          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00023      
+19.522          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00614      
+19.522          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00038      
+19.623          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00924      
+19.623          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00045      
+19.728          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.05274      
+19.728          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00065      
+20.074          LOGGER_DIRECTORY     pLogger         ./MOOSLog_10_3_2021_____20_08_50 
+20.161          PPRIMEFACTOR_ITER_GAP pPrimeFactor    4.32191      
+20.161          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00078      
+20.187          UTIMERSCRIPT_ITER_GAP uTimerScript    6.66175      
+20.187          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00044      
+20.262          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01324      
+20.262          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00062      
+20.292          UTIMERSCRIPT_ITER_GAP uTimerScript    1.04207      
+20.292          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00048      
+20.364          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.02211      
+20.364          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00055      
+20.392          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00361      
+20.392          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00048      
+20.465          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00920      
+20.465          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00045      
+20.493          UTIMERSCRIPT_ITER_GAP uTimerScript    1.01084      
+20.493          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00045      
+20.573          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.08385      
+20.574          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00141      
+20.593          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00264      
+20.593          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00137      
+20.675          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01701      
+20.675          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00050      
+20.695          UTIMERSCRIPT_ITER_GAP uTimerScript    1.01759      
+20.695          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00060      
+20.776          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00906      
+20.776          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00021      
+20.808          UTIMERSCRIPT_ITER_GAP uTimerScript    1.12568      
+20.808          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00047      
+20.878          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.02057      
+20.878          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00043      
+20.909          UTIMERSCRIPT_ITER_GAP uTimerScript    1.01410      
+20.909          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00048      
+20.979          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00568      
+20.979          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00056      
+21.010          UTIMERSCRIPT_ITER_GAP uTimerScript    1.01370      
+21.010          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00051      
+21.079          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00599      
+21.079          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00060      
+21.180          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01144      
+21.180          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00041      
+21.284          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.03458      
+21.284          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00077      
+21.387          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.03488      
+21.387          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00053      
+21.891          DB_TIME              MOOSDB_prime    1615424951.13320 
+21.891          DB_UPTIME            MOOSDB_prime    22.81763     
+21.891          DB_CLIENTS           MOOSDB_prime    pLogger,uTimerScript,pPrimeFactor, 
+21.894          DB_VARSUMMARY        MOOSDB_prime    APPCAST              20:08:50.888         uXMS_832             0.5 Hz S  proc=uXMS_832!@#iter=1...
+APPCAST_REQ          18:59:59.000         (write pending)      0.0 Hz ~  
+DB_CLIENTS           20:09:11.133         MOOSDB_prime         0.4 Hz S  pLogger,uTimerScript,p...
+DB_EVENT             20:09:04.937         MOOSDB_prime         0.0 Hz S  disconnected=uXMS_832
+DB_QOS               20:09:08.663         MOOSDB_prime         0.5 Hz S  pLogger=0.33617:827.87...
+DB_RWSUMMARY         20:09:08.663         MOOSDB_prime         0.5 Hz S  pLogger=APPCAST:APPCAS...
+DB_TIME              20:09:11.133         MOOSDB_prime         0.4 Hz D  1615424951.1
+DB_UPTIME            20:09:11.133         MOOSDB_prime         0.4 Hz D  22.8
+DB_VARSUMMARY        20:09:08.663         MOOSDB_prime         0.5 Hz S  APPCAST              2...
+EXITED_NORMALLY      18:59:59.000         (write pending)      0.0 Hz ~  
+LOGGER_DIRECTORY     20:09:09.318         pLogger              0.0 Hz S  ./MOOSLog_10_3_2021___...
+LOGGER_RESTART       18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_DEBUG           18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_SYSTEM          18:59:59.000         (write pending)      0.0 Hz ~  
+NUM_VALUE            20:08:52.693         uTimerScript         3.6 Hz S  129263144299543
+PLOGGER_CMD          18:59:59.000         (write pending)      0.0 Hz ~  
+PLOGGER_STATUS       20:09:11.133         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PPRIMEFACTOR_ITER_GAP 20:09:10.630         pPrimeFactor         9.0 Hz D  1.0
+PPRIMEFACTOR_ITER_LEN 20:09:10.630         pPrimeFactor         9.0 Hz D  0.0
+PPRIMEFACTOR_STATUS  20:09:10.018         pPrimeFactor         0.5 Hz S  AppErrorFlag=false,Upt...
+PRIME_RESULT         20:08:52.808         pPrimeFactor         3.5 Hz S  original number:129263...
+UTIMERSCRIPT_ITER_GAP 20:09:10.254         uTimerScript         8.2 Hz D  1.0
+UTIMERSCRIPT_ITER_LEN 20:09:10.254         uTimerScript         8.2 Hz D  0.0
+UTIMERSCRIPT_STATUS  20:09:08.764         uTimerScript         0.6 Hz S  AppErrorFlag=false,Upt...
+UTS_FORWARD          18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_PAUSE            18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_RESET            18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_STATUS           20:09:07.921         uTimerScript         0.6 Hz S  name=unnamed, elapsed_...
+UXMS_832_ITER_GAP    20:09:04.621         uXMS_832             5.0 Hz D  1.0
+UXMS_832_ITER_LEN    20:09:04.621         uXMS_832             4.9 Hz D  0.0
+UXMS_832_STATUS      20:09:03.014         uXMS_832             0.5 Hz S  AppErrorFlag=false,Upt...
+ 
+21.894          DB_QOS               MOOSDB_prime    pLogger=0.97394:827.87:0.33617:52.1516,pPrimeFactor=2.70605:591.74:0.28801:68.124,uTimerScript=1.95909:844.69:0.243902:11.9902, 
+21.894          DB_RWSUMMARY         MOOSDB_prime    pLogger=APPCAST:APPCAST_REQ:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:EXITED_NORMALLY:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:NUM_VALUE:PLOGGER_CMD:PPRIMEFACTOR_ITER_GAP:PPRIMEFACTOR_ITER_LEN:PRIME_RESULT:UTIMERSCRIPT_ITER_GAP:UTIMERSCRIPT_ITER_LEN:UTS_FORWARD:UTS_PAUSE:UTS_RESET:UXMS_832_ITER_GAP:UXMS_832_ITER_LEN&LOGGER_DIRECTORY:PLOGGER_STATUS,uTimerScript=APPCAST_REQ:DB_CLIENTS:DB_UPTIME:EXITED_NORMALLY:UTS_FORWARD:UTS_PAUSE:UTS_RESET&APPCAST:NUM_VALUE:UTIMERSCRIPT_ITER_GAP:UTIMERSCRIPT_ITER_LEN:UTIMERSCRIPT_STATUS:UTS_STATUS,pPrimeFactor=APPCAST_REQ:NUM_VALUE&APPCAST:PPRIMEFACTOR_ITER_GAP:PPRIMEFACTOR_ITER_LEN:PPRIMEFACTOR_STATUS:PRIME_RESULT 
+22.295          PPRIMEFACTOR_ITER_GAP pPrimeFactor    9.07303      
+22.295          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00040      
+22.339          UTIMERSCRIPT_ITER_GAP uTimerScript    13.28771     
+22.339          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00020      
+22.398          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.03271      
+22.398          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00079      
+22.441          UTIMERSCRIPT_ITER_GAP uTimerScript    1.01942      
+22.441          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00046      
+22.498          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00588      
+22.499          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00044      
+22.541          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00246      
+22.541          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00047      
+22.599          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00534      
+22.599          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00042      
+22.643          UTIMERSCRIPT_ITER_GAP uTimerScript    1.01524      
+22.643          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00047      
+22.699          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00473      
+22.700          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00060      
+22.744          UTIMERSCRIPT_ITER_GAP uTimerScript    1.01259      
+22.744          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00100      
+22.801          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01326      
+22.801          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00021      
+22.846          UTIMERSCRIPT_ITER_GAP uTimerScript    1.01679      
+22.846          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00054      
+22.904          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.03553      
+22.904          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00101      
+22.946          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00678      
+22.947          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00053      
+23.005          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00953      
+23.005          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00045      
+23.048          UTIMERSCRIPT_ITER_GAP uTimerScript    1.01469      
+23.048          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00088      
+23.106          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00688      
+23.106          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00072      
+23.149          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00582      
+23.149          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00048      
+23.212          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.05770      
+23.212          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00075      
+23.249          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00765      
+23.249          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00047      
+23.313          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01258      
+23.313          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00172      
+23.350          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00761      
+23.350          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00046      
+23.415          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.02095      
+23.415          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00217      
+23.452          UTIMERSCRIPT_ITER_GAP uTimerScript    1.01485      
+23.452          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00046      
+23.516          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01264      
+23.516          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00043      
+23.553          UTIMERSCRIPT_ITER_GAP uTimerScript    1.01222      
+23.553          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00059      
+23.622          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.05684      
+23.622          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00075      
+23.655          UTIMERSCRIPT_ITER_GAP uTimerScript    1.02395      
+23.655          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00074      
+23.725          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.03298      
+23.726          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00139      
+23.755          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00255      
+23.755          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00083      
+23.828          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.02698      
+23.828          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00052      
+23.856          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00996      
+23.856          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00060      
+23.922          DB_TIME              MOOSDB_prime    1615424953.16397 
+23.922          DB_UPTIME            MOOSDB_prime    24.84840     
+23.922          DB_CLIENTS           MOOSDB_prime    pLogger,uTimerScript,pPrimeFactor, 
+23.927          DB_VARSUMMARY        MOOSDB_prime    APPCAST              20:08:50.888         uXMS_832             0.5 Hz S  proc=uXMS_832!@#iter=1...
+APPCAST_REQ          18:59:59.000         (write pending)      0.0 Hz ~  
+DB_CLIENTS           20:09:13.164         MOOSDB_prime         0.5 Hz S  pLogger,uTimerScript,p...
+DB_EVENT             20:09:04.937         MOOSDB_prime         0.0 Hz S  disconnected=uXMS_832
+DB_QOS               20:09:11.136         MOOSDB_prime         0.4 Hz S  pLogger=0.97394:827.87...
+DB_RWSUMMARY         20:09:11.136         MOOSDB_prime         0.4 Hz S  pLogger=APPCAST:APPCAS...
+DB_TIME              20:09:13.163         MOOSDB_prime         0.5 Hz D  1615424953.2
+DB_UPTIME            20:09:13.164         MOOSDB_prime         0.5 Hz D  24.8
+DB_VARSUMMARY        20:09:11.136         MOOSDB_prime         0.4 Hz S  APPCAST              2...
+EXITED_NORMALLY      18:59:59.000         (write pending)      0.0 Hz ~  
+LOGGER_DIRECTORY     20:09:09.318         pLogger              0.0 Hz S  ./MOOSLog_10_3_2021___...
+LOGGER_RESTART       18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_DEBUG           18:59:59.000         (write pending)      0.0 Hz ~  
+MOOS_SYSTEM          18:59:59.000         (write pending)      0.0 Hz ~  
+NUM_VALUE            20:08:52.693         uTimerScript         3.6 Hz S  129263144299543
+PLOGGER_CMD          18:59:59.000         (write pending)      0.0 Hz ~  
+PLOGGER_STATUS       20:09:13.163         pLogger              0.5 Hz S  AppErrorFlag=false,Upt...
+PPRIMEFACTOR_ITER_GAP 20:09:13.073         pPrimeFactor         8.9 Hz D  1.0
+PPRIMEFACTOR_ITER_LEN 20:09:13.073         pPrimeFactor         8.9 Hz D  0.0
+PPRIMEFACTOR_STATUS  20:09:12.045         pPrimeFactor         0.5 Hz S  AppErrorFlag=false,Upt...
+PRIME_RESULT         20:08:52.808         pPrimeFactor         3.5 Hz S  original number:129263...
+UTIMERSCRIPT_ITER_GAP 20:09:13.099         uTimerScript         9.3 Hz D  1.0
+UTIMERSCRIPT_ITER_LEN 20:09:13.099         uTimerScript         9.3 Hz D  0.0
+UTIMERSCRIPT_STATUS  20:09:11.582         uTimerScript         0.5 Hz S  AppErrorFlag=false,Upt...
+UTS_FORWARD          18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_PAUSE            18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_RESET            18:59:59.000         (write pending)      0.0 Hz ~  
+UTS_STATUS           20:09:12.998         uTimerScript         0.4 Hz S  name=unnamed, elapsed_...
+UXMS_832_ITER_GAP    20:09:04.621         uXMS_832             5.0 Hz D  1.0
+UXMS_832_ITER_LEN    20:09:04.621         uXMS_832             4.9 Hz D  0.0
+UXMS_832_STATUS      20:09:03.014         uXMS_832             0.5 Hz S  AppErrorFlag=false,Upt...
+ 
+23.927          DB_QOS               MOOSDB_prime    pLogger=2.63095:827.87:0.33617:52.483,pPrimeFactor=1.791:591.74:0.28801:67.941,uTimerScript=0.786066:844.69:0.243902:11.7556, 
+23.928          DB_RWSUMMARY         MOOSDB_prime    pLogger=APPCAST:APPCAST_REQ:DB_CLIENTS:DB_EVENT:DB_QOS:DB_RWSUMMARY:DB_TIME:DB_UPTIME:DB_VARSUMMARY:EXITED_NORMALLY:LOGGER_DIRECTORY:LOGGER_RESTART:MOOS_DEBUG:MOOS_SYSTEM:NUM_VALUE:PLOGGER_CMD:PPRIMEFACTOR_ITER_GAP:PPRIMEFACTOR_ITER_LEN:PRIME_RESULT:UTIMERSCRIPT_ITER_GAP:UTIMERSCRIPT_ITER_LEN:UTS_FORWARD:UTS_PAUSE:UTS_RESET:UXMS_832_ITER_GAP:UXMS_832_ITER_LEN&LOGGER_DIRECTORY:PLOGGER_STATUS,uTimerScript=APPCAST_REQ:DB_CLIENTS:DB_UPTIME:EXITED_NORMALLY:UTS_FORWARD:UTS_PAUSE:UTS_RESET&APPCAST:NUM_VALUE:UTIMERSCRIPT_ITER_GAP:UTIMERSCRIPT_ITER_LEN:UTIMERSCRIPT_STATUS:UTS_STATUS,pPrimeFactor=APPCAST_REQ:NUM_VALUE&APPCAST:PPRIMEFACTOR_ITER_GAP:PPRIMEFACTOR_ITER_LEN:PPRIMEFACTOR_STATUS:PRIME_RESULT 
+23.929          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.00805      
+23.929          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00211      
+23.960          UTIMERSCRIPT_ITER_GAP uTimerScript    1.04096      
+23.961          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00044      
+24.030          PPRIMEFACTOR_ITER_GAP pPrimeFactor    1.01613      
+24.031          PPRIMEFACTOR_ITER_LEN pPrimeFactor    0.00064      
+24.061          UTIMERSCRIPT_ITER_GAP uTimerScript    1.00565      
+24.061          UTIMERSCRIPT_ITER_LEN uTimerScript    0.00045      

@@ -1,0 +1,9 @@
+//------------------------------------------------
+// pCommunicationAngle_kfung config block
+
+ProcessConfig = pCommunicationAngle_kfung
+{
+   AppTick   = 4
+   CommsTick = 4
+}
+

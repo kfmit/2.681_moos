@@ -1,0 +1,71 @@
+// Level 2 Configuration file: Kat Fung
+
+ServerHost = localhost
+ServerPort = 9000
+Simulator  = true
+
+Community  = prime
+
+MOOSTimeWarp = 1
+
+//LatOrigin  = 43.825300 
+//LongOrigin = -70.330400 
+
+//------------------------------------------
+// Antler configuration  block
+ProcessConfig = ANTLER
+{
+  MSBetweenLaunches = 200
+
+  Run = MOOSDB		@ NewConsole = false
+  Run = pPrimeFactor    @ NewConsole = false
+  Run = uXMS   		@ NewConsole = true
+  Run = uTimerScript 	@ NewConsole = false 
+}
+
+// config block for uXMS
+
+ ProcessConfig = uXMS
+ {
+	       VAR = NUM_VALUE, PRIME_RESULT
+	       }
+
+// pPrimeFactor config block
+
+ProcessConfig = pPrimeFactor
+{
+  AppTick	= 10
+  CommsTick	= 10
+
+}
+
+//block for uTimerScript
+
+ProcessConfig = uTimerScript
+{
+
+ AppTick	= 10
+ CommsTick	= 10
+
+
+   paused     = false
+   //event      = var=NUM_VALUE, val="$(15)", time=0.25
+  // event      = var=NUM_VALUE, val="$(9)", time=0.50
+   //event      = var=NUM_VALUE, val="$(7)", time=0.75
+   //event      = var=NUM_VALUE, val="$(5)", time=1.00
+   //reset_max  = nolimit
+   //reset_time = all-posted
+   
+    //event = var=NUM_VALUE, val="90090"
+    //event = quit 
+
+  //event = var=NUM_VALUE, val="53",  time = 0.50
+  //event = var=NUM_VALUE, val="234", time = 1.00
+  //event = var=NUM_VALUE, val="117", time = 1.50
+    
+    //reset_max  = nolimit
+    //reset_time = all-posted
+
+
+}
+

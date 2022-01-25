@@ -1,0 +1,275 @@
+/************************************************************/
+/*    NAME: Kat Fung                                              */
+/*    ORGN: MIT, Cambridge MA                               */
+/*    FILE: PointAssign.cpp                                        */
+/*    DATE: December 29th, 1963                             */
+/************************************************************/
+
+#include <iterator>
+#include "MBUtils.h"
+#include "ACTable.h"
+#include "PointAssign.h"
+#include "XYPoint.h"
+#include <list>
+
+using namespace std;
+
+//---------------------------------------------------------
+// Constructor
+
+PointAssign::PointAssign()
+{
+  //initialize any random variables you plan to use here
+  m_assign_by_region = false; //default to NOT assign by region
+}
+
+//---------------------------------------------------------
+// Destructor
+
+PointAssign::~PointAssign()
+{
+}
+
+//---------------------------------------------------------
+// Procedure: OnNewMail
+
+bool PointAssign::OnNewMail(MOOSMSG_LIST &NewMail)
+{
+  AppCastingMOOSApp::OnNewMail(NewMail);
+
+  MOOSMSG_LIST::iterator p;
+  for(p=NewMail.begin(); p!=NewMail.end(); p++) {
+    CMOOSMsg &msg = *p;
+    string key    = msg.GetKey();
+    //double dval  = msg.GetDouble();
+    string sval  = msg.GetString();
+
+#if 0 // Keep these around just for template
+    string comm  = msg.GetCommunity();
+    double dval  = msg.GetDouble();
+    string msrc  = msg.GetSource();
+    double mtime = msg.GetTime();
+    bool   mdbl  = msg.IsDouble();
+    bool   mstr  = msg.IsString();
+#endif
+
+  // Create a list of generated Visit Points
+     if(key == "VISIT_POINT") 
+     {
+       // This is a list of STRINGS not INTS
+       m_pointslist.push_back(sval);
+     }
+    
+
+     else if(key != "APPCAST_REQ") // handled by AppCastingMOOSApp
+       reportRunWarning("Unhandled Mail: " + key);
+   }
+	
+   return(true);
+}
+
+//---------------------------------------------------------
+// Procedure: OnConnectToServer
+
+bool PointAssign::OnConnectToServer()
+{
+   registerVariables();
+   return(true);
+}
+
+//---------------------------------------------------------
+// postViewPoint: a function for sorting points
+
+void PointAssign::postViewPoint(double x, double y, string label, string color)
+ {
+  XYPoint point(x, y);
+  point.set_label(label);
+  point.set_color("vertex", color);
+  point.set_param("vertex_size", "2");
+
+  string spec = point.get_spec();    // gets the string representation of a point
+  Notify("VIEW_POINT", spec);
+
+  };
+
+//---------------------------------------------------------
+// Procedure: Iterate()
+//            happens AppTick times per second
+
+bool PointAssign::Iterate()
+{
+  AppCastingMOOSApp::Iterate();
+  // Do your thing here!
+  // Create a report of all the travel points for each vehicle
+  // don't Notify until "lastpoint" is received
+
+
+  // From the m_pointslist, split around the string to get x ,y, and id
+  list<string>::iterator p;
+  for(p=m_pointslist.begin(); p!=m_pointslist.end(); p++)
+  {
+    string pointstring = *p;                       // the whole "x=num, y=num, id=num"
+    // use biteStringX to break up around commas
+    // saves the front half as xstring, pointstring is now "y=num, id=num"
+    string xstring = biteStringX(pointstring, ','); // pointstring left with "y=num, id=num"
+    string ystring = biteStringX(pointstring, ','); // pointstring left with "id=num"
+    string idstring = pointstring;                  // set the last piece to idstring
+
+    // use bitStringX to break up around = sign
+    string xstr = biteStringX(xstring, '=');        //xstring now contains the num
+    string ystr = biteStringX(ystring, '=');        //ystring now contains the num
+    string idstr = biteStringX(idstring, '=');        //idstring now contains the num
+
+    // turn the strings into doubles, variables defined above
+    double x     = stod(xstring);
+    double y     = stod(ystring);
+    string label = idstring;      // he gets to stay a string
+
+    // Run postViewPoint with these conditions
+    postViewPoint(x,y,label,"blue");
+
+  }
+  // Then make an entry of class postViewPoint, with some color?
+  // and then make notify go to the right vehicle name?
+  // and then assign by manner below
+
+
+  // First check if assign by region is true
+  if(m_assign_by_region = true)   // if it is true, divide into east/west
+   { 
+    for(int i=0; i<99; i++)  // for all 100 points
+     {
+       // if in the east region, assign to v1
+       // Define EAST as x from (-25,87)
+        
+       // if in the west region, assign to v2
+       // Define West as x from (88,200)
+      
+       }
+    }
+
+  else                            // DO NOT ASSIGN BY REIGION
+  {
+    // Alternate point assignment
+    for(int i=0; i<99; i++)
+    {
+      if(i%2 == 0)  // if the number is even, give to vehicle 1
+      {
+        // Assign Point to Vehicle 1 and Notify
+      }
+
+      else        // so for all the odd numbers
+      {
+        // Assign Point to Vehicle 2 and Notify here?
+
+      }
+    }
+
+  }
+  AppCastingMOOSApp::PostReport();
+  return(true);
+}
+
+//---------------------------------------------------------
+// Procedure: OnStartUp()
+//            happens before connection is open
+
+bool PointAssign::OnStartUp()
+{
+  AppCastingMOOSApp::OnStartUp();
+
+  STRING_LIST sParams;
+  m_MissionReader.EnableVerbatimQuoting(false);
+  if(!m_MissionReader.GetConfiguration(GetAppName(), sParams))
+    reportConfigWarning("No config block found for " + GetAppName());
+
+  STRING_LIST::iterator p;
+  for(p=sParams.begin(); p!=sParams.end(); p++) {
+    string orig  = *p;
+    string line  = *p;
+    string param = tolower(biteStringX(line, '=')); //chops line by =, keeps the right side
+    string value = line;
+
+// PARAM is LEFT, line is the RIGHT side
+    
+    bool handled = false;
+    if(param == "foo") {
+      handled = true;
+    }
+    else if(param == "bar") {
+      handled = true;
+    }
+    
+
+  // Create a list of vehicle names
+     else if(param == "vname1") 
+      {
+        m_namelist.push_back(value);
+        handled = true;
+      }
+     else if(param == "vname2")
+      {
+        m_namelist.push_back(value);
+        handled = true;
+      }
+
+    // Check is assigning by region
+     else if(param == "assign_by_region")
+     {
+       if(value == "false")
+      {
+       // set m_assign_by_region
+      m_assign_by_region = false;
+      handled = true;
+      }
+
+      else
+      { 
+       m_assign_by_region = true;
+       handled = true;
+      }
+     }  
+
+    if(!handled)
+      reportUnhandledConfigWarning(orig);
+
+  }
+  
+  registerVariables();	
+  return(true);
+}
+
+//---------------------------------------------------------
+// Procedure: registerVariables
+
+void PointAssign::registerVariables()
+{
+  AppCastingMOOSApp::RegisterVariables();
+  // Register("FOOBAR", 0);
+  // Registering for MOOS Variables
+  
+
+}
+
+
+//------------------------------------------------------------
+// Procedure: buildReport()
+
+bool PointAssign::buildReport() 
+{
+  m_msgs << "============================================" << endl;
+  m_msgs << "File: PointAssign.cpp                                      " << endl;
+  m_msgs << "============================================" << endl;
+
+  ACTable actab(4);
+  actab << "Alpha | Bravo | Charlie | Delta";
+  actab.addHeaderLines();
+  actab << "one" << "two" << "three" << "four";
+  m_msgs << actab.getFormattedString();
+
+  return(true);
+}
+
+
+
+

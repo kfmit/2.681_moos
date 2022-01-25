@@ -1,0 +1,47 @@
+/*****************************************************************/
+/*    NAME: M.Benjamin, H.Schmidt, J. Leonard                    */
+/*    ORGN: Dept of Mechanical Eng / CSAIL, MIT Cambridge MA     */
+/*    FILE: XYRangePulse.cpp                               */
+/*    DATE: May 6, 2021                                          */
+/*****************************************************************/
+
+#include <cstdlib>
+#include <math.h>
+#include "XYRangePulse.h"
+#include "MBUtils.h"
+#include "AngleUtils.h"
+#include "BuildUtils.h"
+#include "ZAIC_PEAK.h"
+#include "OF_Coupler.h"
+#include "OF_Reflector.h"
+#include "AOF_SimpleWaypoint.h"
+
+using namespace std;
+
+//-----------------------------------------------------------
+// Procedure: Constructor
+
+XYRangePulse::XYRangePulse() : 
+{
+  IvPBehavior::setParam("name", "simple_waypoint");
+  m_domain = subDomain(m_domain, "course,speed");
+
+  // All distances are in meters, all speed in meters per second
+  // Default values for configuration parameters 
+  m_desired_speed  = 0; 
+  m_arrival_radius = 10;
+  m_ipf_type       = "zaic";
+
+  // Default values for behavior state variables
+  m_osx  = 0;
+  m_osy  = 0;
+
+  addInfoVars("NAV_X, NAV_Y");
+}
+
+//-----------------------------------------------
+// Procedure:
+
+bool ...
+
+

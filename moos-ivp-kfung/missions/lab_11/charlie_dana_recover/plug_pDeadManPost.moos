@@ -1,0 +1,15 @@
+//--------------------------------------------------------
+// pNodeReporter Configuration Block (Created from Plugin)
+
+ProcessConfig = pDeadManPost
+{
+  AppTick     = 2
+  CommsTick   = 2
+  
+  heartbeat_var = UP_LOITER
+  active_at_start = false
+  max_noheart = 120
+  deadflag = FIND_CONTACT=true
+  deadflag = LOITER=false
+  post_policy = reset
+}

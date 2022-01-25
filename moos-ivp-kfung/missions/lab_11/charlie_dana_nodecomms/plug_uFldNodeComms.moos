@@ -1,0 +1,14 @@
+//--------------------------------------------------
+// uFldNodeComms configuration block from plugin
+
+  ProcessConfig = uFldNodeComms
+  {
+    AppTick    = 2
+    CommsTick  = 2
+
+    comms_range      = 120
+    min_msg_interval = 15
+    max_msg_length   = 1000 
+
+    view_node_rpt_pulses = true
+  }

@@ -1,0 +1,16 @@
+//--------------------------------------------------
+// pGenPath configuration block from plugin
+
+ProcessConfig = pGenPath
+{
+  AppTick   = 4
+  CommsTick = 4
+
+// the bhv is going to be looking for an update variable called TSP_UPDATES
+
+
+// Configure the starting position
+start_pos=$(START_POS)
+
+
+}

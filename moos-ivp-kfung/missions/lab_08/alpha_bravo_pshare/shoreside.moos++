@@ -1,0 +1,145 @@
+//-------------------------------------------------
+// NAME: Kat Fung, MIT CSAIL
+// FILE: shoreside.moos
+//-------------------------------------------------
+
+ServerHost   = localhost
+ServerPort   = 9007
+Community    = shoreside
+//----  Next Line was commented and replaced with a command line overload ---- //
+//MOOSTimeWarp = 5    (default)
+MOOSTimeWarp = 1
+
+// Forest Lake
+LatOrigin  = 43.825300
+LongOrigin = -70.330400
+
+// MIT Sailing Pavilion (use this one)
+// LatOrigin  = 42.358456
+// LongOrigin = -71.087589
+
+//------------------------------------------
+// Antler configuration  block
+ProcessConfig = ANTLER
+{
+  MSBetweenLaunches = 200
+
+  Run = MOOSDB        @ NewConsole = false
+  Run = pMarineViewer	@ NewConsole = false
+  Run = pShare        @ NewConsole = false
+  Run = uXMS          @ NewConsole = true ~uXMS_shoreside
+}
+
+
+//------------------------------------------
+ ProcessConfig = pShare
+ {
+   AppTick    = 4
+   CommsTick  = 4
+
+   input  = route=localhost:9011    // alpha
+   input  = route=localhost:9013    // bravo
+
+  // talk to alpha (run the thing, control the vehicle)
+   output = src_name=DEPLOY_ALPHA, dest_name=DEPLOY, route=localhost:9010
+   output = src_name=RETURN_ALPHA, dest_name=RETURN, route=localhost:9010
+   output = src_name=MOOS_MANUAL_OVERRIDE, route=localhost:9010
+
+// talk to bravo (run the thing, control the vehicle)
+   output = src_name=DEPLOY_BRAVO, dest_name=DEPLOY, route=localhost:9014
+   output = src_name=RETURN_BRAVO, dest_name=RETURN, route=localhost:9014
+   output = src_name=MOOS_MANUAL_OVERRIDE, route=localhost:9014
+
+ }
+
+//------------------------------------------
+ ProcessConfig = uXMS_shoreside
+ {
+   AppTick    = 4
+   CommsTick  = 4
+
+  VAR = DEPLOY, RETURN, MOOS_MANUAL_OVERRIDE, VIEW_POINT, VIEW_SEGLIST, NODE_REPORT, NODE_REPORT_LOCAL
+
+ }
+
+//------------------------------------------
+// pMarineViewer config block
+
+ProcessConfig = pMarineViewer
+{
+  AppTick    = 4
+  CommsTick  = 4
+
+  tiff_file            = forrest19.tif
+	//tiff_file            = MIT_SP.tif
+
+  set_pan_x            = -90
+  set_pan_y            = -280
+  zoom                 = 0.65
+  //vehicle_shape_scale  = 1.5
+  //hash_delta           = 50
+  //hash_shade           = 0.22
+  //hash_viewable        = true
+
+  //trails_point_size   = 1
+
+	//op_vertex = x=-83, y=-47,    lwidth=1,lcolor=yellow,looped=true,group=moa
+  //op_vertex = x=-46.4, y=-129.2, lwidth=1,lcolor=yellow,looped=true,group=moa
+  //op_vertex = x=94.6, y=-62.2,   lwidth=1,lcolor=yellow,looped=true,group=moa
+  //op_vertex = x=58,   y=20,    lwidth=1,lcolor=yellow,looped=true,group=moa
+
+  // Appcast configuration
+  //appcast_height       = 75
+  //appcast_width        = 30
+  //appcast_viewable     = true
+  //appcast_color_scheme = indigo
+  //nodes_font_size      = xlarge
+  //procs_font_size      = xlarge
+  //appcast_font_size    = large
+
+  // datum_viewable = true
+  // datum_size     = 18
+  // gui_size = small
+
+  // left_context[survey-point] = DEPLOY=true
+  // left_context[survey-point] = MOOS_MANUAL_OVERRIDE=false
+  // left_context[survey-point] = RETURN=false
+
+  //right_context[return] = DEPLOY=true
+  //right_context[return] = MOOS_MANUAL_OVERRIDE=false
+  //right_context[return] = RETURN=false
+
+  //scope  = NODE_REPORT
+  //scope  = RETURN
+  //scope  = WPT_STAT
+  //scope  = VIEW_SEGLIST
+  //scope  = VIEW_POINT
+  //scope  = VIEW_POLYGON
+  //scope  = MVIEWER_LCLICK
+  //scope  = MVIEWER_RCLICK
+
+  button_one = DEPLOY # DEPLOY_ALPHA=true # DEPLOY_BRAVO=true
+  button_one = MOOS_MANUAL_OVERRIDE=false # RETURN=false
+
+  button_two = RETURN # RETURN_ALPHA=true # RETURN_BRAVO=true
+
+  //button_three = DEPLOY_BRAVO # DEPLOY=true
+  //button_three = MOOS_MANUAL_OVERRIDE=false # RETURN=false
+
+  //button_four = RETURN_BRAVO #RETURN=true
+  //button_three = SLOWER # WPT_UPDATE=speed=1.5
+  //button_four = FASTER # WPT_UPDATE=speed=3.5
+
+  //action  = MENU_KEY=deploy # DEPLOY = true # RETURN = false
+  //action+ = MENU_KEY=deploy # MOOS_MANUAL_OVERRIDE=false
+  //action  = UPDATES_RETURN=speed=1.4
+
+  action  = MENU_KEY=RETURN_BRAVO # RETURN_BRAVO=true # DEPLOY_BRAVO=true
+  action  = MENU_KEY=RETURN_ALPHA # RETURN_ALPHA=true # DEPLOY_ALPHA=true
+
+  action  = MENU_KEY=DEPLOY_ALPHA # DEPLOY_ALPHA=true # RETURN_ALPHA=false
+  action  = MENU_KEY=DEPLOY_BRAVO # DEPLOY_BRAVO=true # RETURN_BRAVO=false
+
+}
+
+

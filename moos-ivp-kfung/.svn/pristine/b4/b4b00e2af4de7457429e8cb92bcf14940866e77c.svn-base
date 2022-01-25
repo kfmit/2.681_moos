@@ -1,0 +1,57 @@
+/************************************************************/
+/*    NAME: Kat Fung                                              */
+/*    ORGN: MIT, Cambridge MA                               */
+/*    FILE: GenPath.h                                          */
+/*    DATE: April 8, 2021                             */
+/************************************************************/
+
+#ifndef GenPath_HEADER
+#define GenPath_HEADER
+
+#include "MOOS/libMOOS/Thirdparty/AppCasting/AppCastingMOOSApp.h"
+#include "XYPoint.h"
+#include "XYSegList.h"
+#include <list>
+#include <vector>
+#include <iostream>
+
+
+using namespace std;
+
+class GenPath : public AppCastingMOOSApp
+{
+ public:
+   GenPath();
+   ~GenPath();
+
+ protected: // Standard MOOSApp functions to overload
+   bool OnNewMail(MOOSMSG_LIST &NewMail);
+   bool Iterate();
+   bool OnConnectToServer();
+   bool OnStartUp();
+
+ protected: // Standard AppCastingMOOSApp function to overload
+   bool buildReport();
+   bool ConvertPoint(string msg);
+   bool FindShortestPath();
+   double DistanceCalc(double x1, double x2, double y1, double y2);
+
+ protected:
+   void registerVariables();
+
+ private: // Configuration variables
+  string m_startpos;
+  vector<string> m_tsppoints;     // to hold initial point order
+  vector<XYPoint> m_xypointsort;  //to store numbers PRE sort
+  vector<XYPoint> m_sorted;        // to hold post sort order
+  vector<XYPoint> m_not_explored;        // to hold those not yet tested
+  XYSegList m_seglist;          // to hold final point order
+  double m_min;                 // a value to compare against
+  double m_xnext;               // holds the nextpoint to traverse to
+  double m_ynext;
+  bool m_allpointsreceived;
+
+ private: // State variables
+};
+
+#endif
